@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="26px" height="18px" viewBox="0 0 26 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>YouTube</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0 26 0 26 18 0 18"></polygon>
+    </defs>
+    <g id="Footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global_Nav_Desktop_Footer_V1" transform="translate(-1234.000000, -680.000000)">
+            <g id="Social-icons" transform="translate(1156.000000, 678.000000)">
+                <g id="YouTube" transform="translate(78.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M10.3409091,12.7987258 L10.3409091,5.20127419 L17.1363636,9.00014516 L10.3409091,12.7987258 Z M25.4566591,2.81075806 C25.1576591,1.70433871 24.2766136,0.833080645 23.1580227,0.537387097 C21.1304659,0 13,0 13,0 C13,0 4.86953409,0 2.84197727,0.537387097 C1.72338636,0.833080645 0.842340909,1.70433871 0.543340909,2.81075806 C0,4.81601613 0,9 0,9 C0,9 0,13.1838387 0.543340909,15.1892419 C0.842340909,16.2956613 1.72338636,17.1669194 2.84197727,17.4627581 C4.86953409,18 13,18 13,18 C13,18 21.1304659,18 23.1580227,17.4627581 C24.2766136,17.1669194 25.1576591,16.2956613 25.4566591,15.1892419 C26,13.1838387 26,9 26,9 C26,9 26,4.81601613 25.4566591,2.81075806 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="22px" viewBox="0 0 12 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>FB</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="9.23076923e-05 0 11.6076923 0 11.6076923 21.7216327 9.23076923e-05 21.7216327"></polygon>
+    </defs>
+    <g id="Footer" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Global_Nav_Desktop_Footer_V1" transform="translate(-1198.000000, -678.000000)">
+            <g id="Social-icons" transform="translate(1156.000000, 678.000000)">
+                <g id="FB" transform="translate(42.000000, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M3.43855385,21.7216327 L3.43855385,11.8440816 L9.23076923e-05,11.8440816 L9.23076923e-05,7.95142857 L3.42009231,7.95142857 L3.42009231,5.10938776 C3.42009231,1.80040816 5.4924,0 8.52470769,0 C9.55486154,0.00269387755 10.5836308,0.0597142857 11.6077846,0.170612245 L11.6077846,3.62326531 L9.5124,3.62326531 C7.86470769,3.62326531 7.54578462,4.38204082 7.54578462,5.5 L7.54578462,7.96938776 L11.4924,7.96938776 L10.9800923,11.8440816 L7.54578462,11.8440816 L7.54578462,21.7216327 L3.43855385,21.7216327 Z" id="Fill-1" fill="#FFFFFF" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
