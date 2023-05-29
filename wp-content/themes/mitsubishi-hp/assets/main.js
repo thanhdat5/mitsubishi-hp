@@ -47,7 +47,76 @@ import * as bootstrap from 'bootstrap';
 	jQuery('.hp-hn-bottom .dropdown-item').on('click', function () {
 		jQuery('.hp-header').removeClass('show');
 	})
-
+	jQuery('.banner-hero-items').slick({
+		slidesToShow: 1,
+		slidesToScroll: 1,      
+		arrows: true,
+		dots: false ,
+		infinite: true,
+		responsive: [
+		  {
+			breakpoint: 991,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,      
+			}
+		  },
+		  {
+			breakpoint: 768,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,      
+			}
+		  },
+		  {
+			breakpoint: 480,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 1,
+			  slidesToScroll: 1,      
+			}
+		  }
+		]
+	});
+	jQuery('.hp-product-versions-items').slick({
+		slidesToShow: 3,
+		slidesToScroll: 1,      
+		arrows: true,
+		dots: false ,
+		centerMode:true,
+		responsive: [
+		  {
+			breakpoint: 991,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,   
+			  focusOnSelect: false, 
+			}
+		  },
+		  {
+			breakpoint: 768,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 3,
+			  slidesToScroll: 1,   
+			  focusOnSelect: false, 
+			}
+		  },
+		  {
+			breakpoint: 480,
+			settings: {
+			  arrows: false,
+			  slidesToShow: 1,
+			  slidesToScroll: 1, 
+			  focusOnSelect: false,
+			}
+		  }
+		]
+	  });
+	
 	// Handle product page
 	jQuery('.hp-pv-tabs li:first-child').addClass('active');
 	jQuery('.hp-pv-infors .hp-pv-info:first-child').addClass('active');
@@ -107,4 +176,7 @@ import * as bootstrap from 'bootstrap';
 		jQuery(`#CompareVersion${pos[0]} .hp-cm-color span`).removeClass('show');
 		jQuery(`#CompareVersion${pos[0]}Color${pos[1]}`).addClass('show');
 	})
+
+	
 })();
+
