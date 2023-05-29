@@ -36,7 +36,7 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 		 * @param int      $depth  Depth of menu item. Used for padding.
 		 * @param stdClass $args   An object of wp_nav_menu() arguments.
 		 */
-		public function start_lvl( &$output, $depth = 0, $args = null ) {
+		public function start_lvl( &$output, $depth = 0, $args = null) {
 			$output .= '<ul role="menu" class="dropdown-menu">';
 		}
 
@@ -156,6 +156,9 @@ if ( ! class_exists( 'WP_Bootstrap_Navwalker' ) ) {
 				$item_output .= ( $args->has_children && 0 === $depth ) ? ' <span class="caret"></span></a>' : '</a>';
 				$item_output .= $args->after;
 				$output      .= apply_filters( 'walker_nav_menu_start_el', $item_output, $item, $depth, $args );
+				if (!$is_grid_display &&  $args->has_children && 0 === $depth) {
+					$output .= '<div class="mega-menu-bg"><img src="'.$image_url.'" alt="'.$args->link_before .'"/></div>';
+				}
 			}
 		}
 
