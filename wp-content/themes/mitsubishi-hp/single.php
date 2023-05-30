@@ -10,7 +10,9 @@ if (have_posts()) :
 		the_post();
 		if ('san-pham' === get_post_type()) {
 			get_template_part('content', 'product');
-		} else {
+		} else if ('attrage' === get_post_type()) {
+			get_template_part('content', 'feature');
+		}else{
 			get_template_part('content', 'single');
 		}
 	endwhile;

@@ -1019,6 +1019,27 @@ main {
   }
 }
 
+//Chính sách bảo mật
+.hp-policy-page {
+  .hp-policy-header {
+    padding: 186px 0 35px;
+    background-color: #000;
+    text-align: center;
+    h1 {
+      font-size: 63px;
+      line-height: 72px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+  }
+  .hp-policy-content {
+    padding: 40px 20px;
+   white-space: pre-wrap;
+   
+  }
+}
+
 // Sản phẩm
 .hp-product-page {
   .hp-product-banner {
@@ -1656,6 +1677,45 @@ main {
     }
   }
 }
+
+//Khám phá
+.hp-product-feature{
+  .breadcrumb__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+    z-index: 2;
+    .breadcrumb__item {
+      display: flex;
+      align-items: center;
+      color: #bfc2c4;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 1.6rem;
+      padding-right: 15px;
+      a{
+        color: #686d71;
+        text-decoration: none;
+      }
+    }
+  }  
+  .hero__body {
+    text-align: center;
+    max-width: 132rem;
+    padding: 6rem 0 1.5rem;
+    margin: 0 auto;
+    .title {
+      margin-bottom: 3rem;
+      font-size: 4.3rem;
+      font-weight: 700;
+    }
+  }
+  .img-100{
+    width: 100%;
+  }
+}
 /**
  * Animation
  */
@@ -2014,6 +2074,9 @@ main {
               align-items: center;
               justify-content: flex-end;
               z-index: 2;
+              @media(max-width:991px){
+                min-height: 0;
+            }
               @media(max-width:480px){
                 min-height: 0;
             }
@@ -2030,23 +2093,30 @@ main {
                   z-index: 4;
                   position: absolute;
                   @media(max-width:991px){
-                      font-size: 20px;
-                      padding: 20px;
+                      font-size: 15px;
+                      padding: 10px;
                       width: 100%;
                   }
                   @media(max-width:480px){
-                      font-size: 15px;
-                      padding: 20px;
+                      font-size: 12px;
+                      padding: 10px;
                       width: 100%;
                   }
-                  
+                  img{
+                    @media(max-width:991px){
+                      height: 100%;
+                  }
+                  @media(max-width:480px){
+                    height: 84px;
+                  }
+                  }
               }
           }
       }
   }
 }
 
-.mit-production{
+.mit-production{ 
   .hp-product-versions-items {
     padding: 40px 0;
     margin-bottom: 40px;
@@ -2133,7 +2203,7 @@ main {
         position: relative;
         z-index: 2;
         img {
-          width: 100%;
+          width: 85%;
           object-fit: contain;
         }
       }
@@ -2153,5 +2223,133 @@ main {
       }
     }
    }
+  }
+}
+
+.editor-car--odds{
+  padding:4rem 0;
+}
+.discovery{
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.discovery--reverse .discovery__main {
+  margin-left: 8.33333333%;
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+.discovery__body {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(8.33333333% + 2rem);
+  padding: 40px;
+  max-width: 360px;
+  background: #000;
+  color: #fff;
+}
+
+.title--3 {
+  font-size: 35px;
+  line-height: 45px;
+  /*color: #fff;*/
+}
+.editor-car__body .title--3{
+  font-weight: bold;
+  margin: 15px 0;
+}
+.discovery__main {
+  max-width: 91.66666667%;
+  margin-right: 2rem;
+}
+.discovery--reverse .discovery__main{
+  margin-right: 0;
+}
+.editor-car--odds .col-md-4.offset-md-1 .editor-car__item{
+  padding-top: 120px ;
+}
+/*animated services*/
+.hp-si-content {
+  padding: 40px 150px;
+  position: relative;
+}
+.hp-si-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.hp-service-item.hp-service-item-black {
+  background: #000;
+}
+.discovery--reverse .discovery__main .discovery__body{
+  right: 16%;
+  left: auto;
+}
+.discovery__main .discovery__body{
+  left: 16%;
+  right: auto;
+}
+.discovery__thumb img{
+  min-height: 600px;
+  max-height: 650px;
+  object-fit: cover;
+  width: 100%;
+}
+.hp-service-item.hp-service-item-black  .hp-si-content{
+  color: #fff;
+}
+@media (max-width:1279px) {
+  * img{
+    width: 100%;
+  }
+  .discovery__body{
+    /*max-width: 70%;*/
+    left: auto;
+    right: calc(17% + 2rem);
+  }
+}
+@media(max-width:767px){
+  * img{
+    width: 100%;
+  }
+  .discovery--reverse .discovery__main,.discovery__main{
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .hp-si-title{
+    font-size: 32px;
+  }
+  .editor-car--odds{
+    padding: 2rem 0;
+  }
+  .editor-car--odds .col-md-4.offset-md-1 .editor-car__item{
+    padding-top: 40px;
+  }
+  .discovery__body{
+    max-width: 70%;
+    right: calc(5% + 2rem);
+  }
+  .hp-si-content{
+    padding: 30px 20px;
+  }
+  .title--3{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .discovery{
+    margin: 3rem 0;
+  }
+  .discovery__thumb img{
+    min-height: 400px;
+    object-fit: cover;
+  }
+  .discovery__body {
+    padding: 25px;
   }
 }

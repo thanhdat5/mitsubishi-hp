@@ -11,83 +11,82 @@ get_header();
     <div class="banner-hero-items">
         <div class="banner-hero-item">
             <div class="banner-hero-item-content">
-                <img class="w-100" src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/banner-1.jpg"
+                <img class="w-100" src="<?php echo get_field('anh_banner_1'); ?>"
                     alt="" />
                 <div class="content-right">
-                    <img src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/logo-banner-1.png" alt=""
+                    <img src="<?php echo get_field('anh_logo_banner_1'); ?>" alt=""
                         class="logo-item w-100" />
                     <div class="title">Ưu đãi mua xe Mitsubishi</div>
                     <div class="intro-item">
-                        <p>
+                        <span>
                             Phiên bản diện mạo thể thao bật chất cá tính, mang đậm chất
                             riêng.
-                        </p>
+                        </span>
                     </div>
-                    <button class="btn"><span>Tìm hiểu thêm</span></button>
+                    <button class="hp-btn hp-btn-white"><span>Tìm hiểu thêm</span></button>
                 </div>
             </div>
         </div>
         <div class="banner-hero-item">
             <div class="banner-hero-item-content">
-                <img class="w-100" src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05//banner-2.jpg"
+            <img class="w-100" src="<?php echo get_field('anh_banner_2'); ?>"
                     alt="" />
                 <div class="content-right">
-                    <img src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/logo-banner-2.png" alt=""
+                <img src="<?php echo get_field('anh_logo_banner_2'); ?>" alt=""
                         class="logo-item w-100" />
                     <div class="title">Vẹn toàn thành công, chu toàn tổ ấm!</div>
                     <div class="intro-item">
-                        <p>
+                        <span>
                             Điểm nhấn phong cách dành cho quý ông thành đạt trong cả sự
                             nghiệp và cuộc sống.
-                        </p>
+                        </span>
                     </div>
-                    <button class="btn"><span>Tìm hiểu thêm</span></button>
+                    <button class="hp-btn hp-btn-white"><span>Tìm hiểu thêm</span></button>
                 </div>
             </div>
         </div>
         <div class="banner-hero-item">
             <div class="banner-hero-item-content">
-                <img class="w-100" src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/banner-3.jpg"
+            <img class="w-100" src="<?php echo get_field('anh_banner_3'); ?>"
                     alt="" />
                 <div class="content-right">
-                    <img src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/logo-banner-3.png" alt=""
+                <img src="<?php echo get_field('anh_logo_banner_3'); ?>" alt=""
                         class="logo-item w-100" />
                     <div class="title">Xe qua sử dụng chính hãng</div>
                     <div class="intro-item">
-                        <p>
+                        <span>
                             Xe sẽ được đội ngũ kỹ thuật viên chuyên nghiệp kiểm tra và
                             đánh giá 160 hạng mục kỹ thuật.
-                        </p>
+                        </span>
                     </div>
-                    <button class="btn"><span>Tìm hiểu thêm</span></button>
+                    <button class="hp-btn hp-btn-white"><span>Tìm hiểu thêm</span></button>
                 </div>
             </div>
         </div>
         <div class="banner-hero-item">
             <div class="banner-hero-item-content">
-                <img class="w-100" src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/banner-4.jpg"
+            <img class="w-100" src="<?php echo get_field('anh_banner_4'); ?>"
                     alt="" />
                 <div class="content-right">
-                    <img src="http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/logo-banner-4.png" alt=""
+                <img src="<?php echo get_field('anh_logo_banner_4'); ?>" alt=""
                         class="logo-item w-100" />
                     <div class="title">
                         TỰ TIN VỮNG LÁI <br />
                         THOẢI MÁI PHIÊU LƯU
                     </div>
                     <div class="intro-item">
-                        <p>
+                        <span>
                             Tận hưởng phong cách SUV và trải nghiệm lái đầy ấn tượng
                             cùng các nâng cấp về an toàn và vận hành.
-                        </p>
+                        </span>
                     </div>
-                    <button class="btn"><span>Tìm hiểu thêm</span></button>
+                    <button class="hp-btn hp-btn-white"><span>Tìm hiểu thêm</span></button>
                 </div>
             </div>
         </div>
     </div>
 </section>
 <section class="mit-production text-center">
-    <div class="mit-title">Sản phẩm</div>
     <div class="hp-product-versions-items">
     <?php
         $args = array(
@@ -114,7 +113,7 @@ get_header();
                         <div class="hp-pv-hover-inner"  style="background-image: url(<?php echo get_field('anh_hover'); ?>)"></div>
                     </div>
                     <div class="hp-pv-image">
-                        <img class="w-100" src="<?php echo get_field('pb1_hinh_anh'); ?>" alt="" />
+                        <img  src="<?php echo get_field('pb1_hinh_anh'); ?>" alt="" />
                     </div>
                     <div class="hp-pv-name"><?php echo get_the_title(); ?></div>
                     <div class="hp-pv-price">Giá: <?php echo get_field('pb1_gia_ban'); ?></div>
@@ -133,5 +132,19 @@ get_header();
  </div>
     <button class="hp-btn"><span>Tìm hiểu thêm</span></button>
 </section>
+<div class="hp-product-banner" style="background-image: url(https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/home-trai-nghiem-xe-section.webp?v=2022-08-11-1420);">
+		<div class="container">
+			<div class="hp-pb-inner">
+				<!-- <div class="hp-pb-image">
+					<img src="https://www.mitsubishi-motors.com.vn/w/wp-content/uploads/2022/04/attrage-logo.svg" alt="" />
+				</div> -->
+				<h1 class="hp-pb-heading"><p>Trải nghiệm <br/>  Các mẫu xe Mitsubishi</p></h1>
+						<p class="hp-pb-description">Lịch trưng bày và lái thử xe Mitsubishi tại Nhà phân phối trên toàn quốc</p>			
+				<div class="hp-pb-action">
+					<a class="hp-btn hp-btn-white" href="#">XEM THÊM</a>
+				</div>
+			</div>
+		</div>
+	</div>
 <?php
 get_footer();
