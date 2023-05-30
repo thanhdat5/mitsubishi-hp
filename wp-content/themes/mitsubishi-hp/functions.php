@@ -580,7 +580,10 @@ function mitsubishi_hp_scripts_loader()
 
 	// 2. Scripts.
 	wp_enqueue_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js');
+	wp_enqueue_script('slick', 'https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js');
 	wp_enqueue_script('mainjs', get_theme_file_uri('assets/dist/main.bundle.js'), array(), $theme_version, true);
+
+
 
 	if (is_singular() && comments_open() && get_option('thread_comments')) {
 		wp_enqueue_script('comment-reply');

@@ -4,6 +4,8 @@
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="wp-content/themes/mitsubishi-hp/assets/slick/slick.css" />
+	<link rel="stylesheet" href="wp-content/themes/mitsubishi-hp/assets/slick/slick-theme.css" />
 
 	<?php wp_head(); ?>
 </head>

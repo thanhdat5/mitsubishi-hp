@@ -86,7 +86,7 @@
 					<?php
 					if (get_field('pb1_ten_phien_ban')) {
 					?>
-						<div class="col-lg-4">
+						<div class="col-4 col-md-4 col-lg-4">
 							<div id="SelectVersionImage1" class="hp-product-version">
 								<div class="hp-pv-hover">
 									<div class="hp-pv-hover-inner"></div>
@@ -105,7 +105,7 @@
 					<?php
 					if (get_field('pb2_ten_phien_ban')) {
 					?>
-						<div class="col-lg-4">
+						<div class="col-4 col-md-4 col-lg-4">
 							<div id="SelectVersionImage2" class="hp-product-version">
 								<div class="hp-pv-hover">
 									<div class="hp-pv-hover-inner"></div>
@@ -124,7 +124,7 @@
 					<?php
 					if (get_field('pb3_ten_phien_ban')) {
 					?>
-						<div class="col-lg-4">
+						<div class="col-4 col-md-4 col-lg-4">
 							<div id="SelectVersionImage3" class="hp-product-version">
 								<div class="hp-pv-hover">
 									<div class="hp-pv-hover-inner"></div>
@@ -149,7 +149,7 @@
 	<div class="hp-product-view">
 		<div class="container">
 			<div class="row align-items-center">
-				<div class="col-lg-5">
+				<div class="col-12 col-md-5 col-lg-5">
 					<ul class="hp-pv-tabs text-uppercase">
 						<?php
 						if (get_field('pb1_ten_phien_ban')) {
@@ -228,7 +228,7 @@
 						?>
 					</div>
 				</div>
-				<div class="col-lg-7">
+				<div class="col-12 col-md-7 col-lg-7">
 					<div class="hp-pv-images">
 						<?php
 						if (get_field('pb1_ten_phien_ban')) {
@@ -289,7 +289,7 @@
 					<?php
 					if (get_field('pb1_ten_phien_ban')) {
 					?>
-						<div class="col-lg-<?php echo $total_version == 1 ? '6' : $col_size; ?>">
+						<div class="col-<?php echo $total_version == 1 ? '6' : $col_size; ?> col-md-<?php echo $total_version == 1 ? '6' : $col_size; ?> col-lg-<?php echo $total_version == 1 ? '6' : $col_size; ?>">
 							<div class="hp-compare-model" id="CompareVersion1">
 								<div class="hp-cm-image">
 									<?php
@@ -413,7 +413,7 @@
 					<?php
 					if (get_field('pb2_ten_phien_ban')) {
 					?>
-						<div class="col-lg-<?php echo $col_size; ?>">
+						<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?>col-lg-<?php echo $col_size; ?>">
 							<div class="hp-compare-model" id="CompareVersion2">
 								<div class="hp-cm-image">
 									<?php
@@ -537,7 +537,7 @@
 					<?php
 					if (get_field('pb3_ten_phien_ban')) {
 					?>
-						<div class="col-lg-<?php echo $col_size; ?>">
+						<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 							<div class="hp-compare-model" id="CompareVersion3">
 								<div class="hp-cm-image">
 									<?php
@@ -682,7 +682,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kich_thuoc_tong_the'); ?></div>
 											</div>
 										<?php
@@ -691,7 +691,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kich_thuoc_tong_the'); ?></div>
 											</div>
 										<?php
@@ -700,7 +700,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kich_thuoc_tong_the'); ?></div>
 											</div>
 										<?php
@@ -724,7 +724,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kich_thuoc_thung_xe'); ?></div>
 											</div>
 										<?php
@@ -733,7 +733,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kich_thuoc_thung_xe'); ?></div>
 											</div>
 										<?php
@@ -742,7 +742,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kich_thuoc_thung_xe'); ?></div>
 											</div>
 										<?php
@@ -766,7 +766,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoang_cach_hai_cau_xe'); ?></div>
 											</div>
 										<?php
@@ -775,7 +775,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoang_cach_hai_cau_xe'); ?></div>
 											</div>
 										<?php
@@ -784,7 +784,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoang_cach_hai_cau_xe'); ?></div>
 											</div>
 										<?php
@@ -808,7 +808,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoang_cach_hai_banh_xe_truoc'); ?></div>
 											</div>
 										<?php
@@ -817,7 +817,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoang_cach_hai_banh_xe_truoc'); ?></div>
 											</div>
 										<?php
@@ -826,7 +826,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoang_cach_hai_banh_xe_truoc'); ?></div>
 											</div>
 										<?php
@@ -850,7 +850,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoang_cach_hai_banh_xe_sau'); ?></div>
 											</div>
 										<?php
@@ -859,7 +859,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoang_cach_hai_banh_xe_sau'); ?></div>
 											</div>
 										<?php
@@ -868,7 +868,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoang_cach_hai_banh_xe_sau'); ?></div>
 											</div>
 										<?php
@@ -892,7 +892,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_ban_kinh_quay_vong_toi_thieu'); ?></div>
 											</div>
 										<?php
@@ -901,7 +901,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_ban_kinh_quay_vong_toi_thieu'); ?></div>
 											</div>
 										<?php
@@ -910,7 +910,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_ban_kinh_quay_vong_toi_thieu'); ?></div>
 											</div>
 										<?php
@@ -934,7 +934,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoang_sang_gam_xe'); ?></div>
 											</div>
 										<?php
@@ -943,7 +943,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoang_sang_gam_xe'); ?></div>
 											</div>
 										<?php
@@ -952,7 +952,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoang_sang_gam_xe'); ?></div>
 											</div>
 										<?php
@@ -976,7 +976,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_trong_luong_khong_tai'); ?></div>
 											</div>
 										<?php
@@ -985,7 +985,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_trong_luong_khong_tai'); ?></div>
 											</div>
 										<?php
@@ -994,7 +994,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_trong_luong_khong_tai'); ?></div>
 											</div>
 										<?php
@@ -1018,7 +1018,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_trong_luong_toan_tai'); ?></div>
 											</div>
 										<?php
@@ -1027,7 +1027,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_trong_luong_toan_tai'); ?></div>
 											</div>
 										<?php
@@ -1036,7 +1036,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_trong_luong_toan_tai'); ?></div>
 											</div>
 										<?php
@@ -1060,7 +1060,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_so_cho_ngoi'); ?></div>
 											</div>
 										<?php
@@ -1069,7 +1069,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+											<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_so_cho_ngoi'); ?></div>
 											</div>
 										<?php
@@ -1078,7 +1078,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_so_cho_ngoi'); ?></div>
 											</div>
 										<?php
@@ -1113,7 +1113,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_loai_dong_co'); ?></div>
 											</div>
 										<?php
@@ -1122,7 +1122,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_loai_dong_co'); ?></div>
 											</div>
 										<?php
@@ -1131,7 +1131,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_loai_dong_co'); ?></div>
 											</div>
 										<?php
@@ -1155,7 +1155,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dung_tich_xylanh'); ?></div>
 											</div>
 										<?php
@@ -1164,7 +1164,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dung_tich_xylanh'); ?></div>
 											</div>
 										<?php
@@ -1173,7 +1173,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dung_tich_xylanh'); ?></div>
 											</div>
 										<?php
@@ -1197,7 +1197,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1206,7 +1206,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1215,7 +1215,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1239,7 +1239,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cong_suat_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1248,7 +1248,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cong_suat_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1257,7 +1257,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cong_suat_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1281,7 +1281,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_momen_xoan_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1290,7 +1290,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_momen_xoan_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1299,7 +1299,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_momen_xoan_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1323,7 +1323,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_toc_do_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1332,7 +1332,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_toc_do_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1341,7 +1341,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_toc_do_cuc_dai'); ?></div>
 											</div>
 										<?php
@@ -1365,7 +1365,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dung_tich_thung_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1374,7 +1374,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dung_tich_thung_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1383,7 +1383,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dung_tich_thung_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1407,7 +1407,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_muc_tieu_hao_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1416,7 +1416,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_muc_tieu_hao_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1425,7 +1425,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_muc_tieu_hao_nhien_lieu'); ?></div>
 											</div>
 										<?php
@@ -1461,7 +1461,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_hop_so'); ?></div>
 											</div>
 										<?php
@@ -1470,7 +1470,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_hop_so'); ?></div>
 											</div>
 										<?php
@@ -1479,7 +1479,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_hop_so'); ?></div>
 											</div>
 										<?php
@@ -1503,7 +1503,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_truyen_dong'); ?></div>
 											</div>
 										<?php
@@ -1512,7 +1512,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_truyen_dong'); ?></div>
 											</div>
 										<?php
@@ -1521,7 +1521,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_truyen_dong'); ?></div>
 											</div>
 										<?php
@@ -1545,7 +1545,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoa_vi_sai_cau_sau'); ?></div>
 											</div>
 										<?php
@@ -1554,7 +1554,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoa_vi_sai_cau_sau'); ?></div>
 											</div>
 										<?php
@@ -1563,7 +1563,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoa_vi_sai_cau_sau'); ?></div>
 											</div>
 										<?php
@@ -1587,7 +1587,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tro_luc_lai'); ?></div>
 											</div>
 										<?php
@@ -1596,7 +1596,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tro_luc_lai'); ?></div>
 											</div>
 										<?php
@@ -1605,7 +1605,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tro_luc_lai'); ?></div>
 											</div>
 										<?php
@@ -1629,7 +1629,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_treo_truoc'); ?></div>
 											</div>
 										<?php
@@ -1638,7 +1638,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_treo_truoc'); ?></div>
 											</div>
 										<?php
@@ -1647,7 +1647,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_treo_truoc'); ?></div>
 											</div>
 										<?php
@@ -1671,7 +1671,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_treo_sau'); ?></div>
 											</div>
 										<?php
@@ -1680,7 +1680,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_treo_sau'); ?></div>
 											</div>
 										<?php
@@ -1689,7 +1689,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_treo_sau'); ?></div>
 											</div>
 										<?php
@@ -1713,7 +1713,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kich_thuoc_lop_xe_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -1722,7 +1722,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kich_thuoc_lop_xe_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -1731,7 +1731,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kich_thuoc_lop_xe_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -1755,7 +1755,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_phanh_truoc'); ?></div>
 											</div>
 										<?php
@@ -1764,7 +1764,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_phanh_truoc'); ?></div>
 											</div>
 										<?php
@@ -1773,7 +1773,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_phanh_truoc'); ?></div>
 											</div>
 										<?php
@@ -1797,7 +1797,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_phanh_sau'); ?></div>
 											</div>
 										<?php
@@ -1806,7 +1806,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_phanh_sau'); ?></div>
 											</div>
 										<?php
@@ -1815,7 +1815,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_phanh_sau'); ?></div>
 											</div>
 										<?php
@@ -1851,7 +1851,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_op_can_truoc_sau_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -1860,7 +1860,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_op_can_truoc_sau_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -1869,7 +1869,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_op_can_truoc_sau_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -1893,7 +1893,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_op_ve_truoc_cung_mau_than_xe'); ?></div>
 											</div>
 										<?php
@@ -1902,7 +1902,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_op_ve_truoc_cung_mau_than_xe'); ?></div>
 											</div>
 										<?php
@@ -1911,7 +1911,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_op_ve_truoc_cung_mau_than_xe'); ?></div>
 											</div>
 										<?php
@@ -1935,7 +1935,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -1944,7 +1944,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -1953,7 +1953,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -1977,7 +1977,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_dinh_vi_led'); ?></div>
 											</div>
 										<?php
@@ -1986,7 +1986,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_dinh_vi_led'); ?></div>
 											</div>
 										<?php
@@ -1995,7 +1995,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_dinh_vi_led'); ?></div>
 											</div>
 										<?php
@@ -2019,7 +2019,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_led_chieu_sang_ban_ngay'); ?></div>
 											</div>
 										<?php
@@ -2028,7 +2028,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_led_chieu_sang_ban_ngay'); ?></div>
 											</div>
 										<?php
@@ -2037,7 +2037,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_led_chieu_sang_ban_ngay'); ?></div>
 											</div>
 										<?php
@@ -2061,7 +2061,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_chao_mung_den_ho_tro_chieu_sang_khi_roi_xe'); ?></div>
 											</div>
 										<?php
@@ -2070,7 +2070,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_chao_mung_den_ho_tro_chieu_sang_khi_roi_xe'); ?></div>
 											</div>
 										<?php
@@ -2079,7 +2079,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_chao_mung_den_ho_tro_chieu_sang_khi_roi_xe'); ?></div>
 											</div>
 										<?php
@@ -2103,7 +2103,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_tu_dong_bat_tat_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2112,7 +2112,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_tu_dong_bat_tat_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2121,7 +2121,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_tu_dong_bat_tat_den_chieu_sang_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2145,7 +2145,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_dieu_chinh_do_cao_den_chieu_sang'); ?></div>
 											</div>
 										<?php
@@ -2154,7 +2154,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_dieu_chinh_do_cao_den_chieu_sang'); ?></div>
 											</div>
 										<?php
@@ -2163,7 +2163,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_dieu_chinh_do_cao_den_chieu_sang'); ?></div>
 											</div>
 										<?php
@@ -2187,7 +2187,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_pha_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2196,7 +2196,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_pha_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2205,7 +2205,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_pha_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2229,7 +2229,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_suong_mu_phia_truoc_led'); ?></div>
 											</div>
 										<?php
@@ -2238,7 +2238,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_suong_mu_phia_truoc_led'); ?></div>
 											</div>
 										<?php
@@ -2247,7 +2247,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_suong_mu_phia_truoc_led'); ?></div>
 											</div>
 										<?php
@@ -2271,7 +2271,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_suong_mu_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2280,7 +2280,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_suong_mu_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2289,7 +2289,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_suong_mu_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -2313,7 +2313,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_op_den_suong_mu_ma_chrome'); ?></div>
 											</div>
 										<?php
@@ -2322,7 +2322,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_op_den_suong_mu_ma_chrome'); ?></div>
 											</div>
 										<?php
@@ -2331,7 +2331,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_op_den_suong_mu_ma_chrome'); ?></div>
 											</div>
 										<?php
@@ -2355,7 +2355,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_rua_den_pha'); ?></div>
 											</div>
 										<?php
@@ -2364,7 +2364,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_rua_den_pha'); ?></div>
 											</div>
 										<?php
@@ -2373,7 +2373,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_rua_den_pha'); ?></div>
 											</div>
 										<?php
@@ -2397,7 +2397,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cum_den_led_phia_sau'); ?></div>
 											</div>
 										<?php
@@ -2406,7 +2406,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cum_den_led_phia_sau'); ?></div>
 											</div>
 										<?php
@@ -2415,7 +2415,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cum_den_led_phia_sau'); ?></div>
 											</div>
 										<?php
@@ -2439,7 +2439,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_bao_phanh_thu_ba_tren_cao'); ?></div>
 											</div>
 										<?php
@@ -2448,7 +2448,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_bao_phanh_thu_ba_tren_cao'); ?></div>
 											</div>
 										<?php
@@ -2457,7 +2457,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_bao_phanh_thu_ba_tren_cao'); ?></div>
 											</div>
 										<?php
@@ -2481,7 +2481,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kinh_chieu_hau'); ?></div>
 											</div>
 										<?php
@@ -2490,7 +2490,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kinh_chieu_hau'); ?></div>
 											</div>
 										<?php
@@ -2499,7 +2499,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kinh_chieu_hau'); ?></div>
 											</div>
 										<?php
@@ -2523,7 +2523,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cua_sau_dong_mo_bang_dien'); ?></div>
 											</div>
 										<?php
@@ -2532,7 +2532,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cua_sau_dong_mo_bang_dien'); ?></div>
 											</div>
 										<?php
@@ -2541,7 +2541,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cua_sau_dong_mo_bang_dien'); ?></div>
 											</div>
 										<?php
@@ -2565,7 +2565,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tay_nam_cua_ngoai'); ?></div>
 											</div>
 										<?php
@@ -2574,7 +2574,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tay_nam_cua_ngoai'); ?></div>
 											</div>
 										<?php
@@ -2583,7 +2583,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tay_nam_cua_ngoai'); ?></div>
 											</div>
 										<?php
@@ -2607,7 +2607,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_luoi_tan_nhiet'); ?></div>
 											</div>
 										<?php
@@ -2616,7 +2616,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_luoi_tan_nhiet'); ?></div>
 											</div>
 										<?php
@@ -2625,7 +2625,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_luoi_tan_nhiet'); ?></div>
 											</div>
 										<?php
@@ -2649,7 +2649,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kinh_cua_mau_sam'); ?></div>
 											</div>
 										<?php
@@ -2658,7 +2658,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kinh_cua_mau_sam'); ?></div>
 											</div>
 										<?php
@@ -2667,7 +2667,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kinh_cua_mau_sam'); ?></div>
 											</div>
 										<?php
@@ -2691,7 +2691,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cua_cop_dong_mo_dien_ranh_tay'); ?></div>
 											</div>
 										<?php
@@ -2700,7 +2700,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cua_cop_dong_mo_dien_ranh_tay'); ?></div>
 											</div>
 										<?php
@@ -2709,7 +2709,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cua_cop_dong_mo_dien_ranh_tay'); ?></div>
 											</div>
 										<?php
@@ -2733,7 +2733,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_gat_nuoc_kinh_truoc'); ?></div>
 											</div>
 										<?php
@@ -2742,7 +2742,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_gat_nuoc_kinh_truoc'); ?></div>
 											</div>
 										<?php
@@ -2751,7 +2751,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_gat_nuoc_kinh_truoc'); ?></div>
 											</div>
 										<?php
@@ -2775,7 +2775,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_gat_nuoc_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2784,7 +2784,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_gat_nuoc_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2793,7 +2793,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_gat_nuoc_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2817,7 +2817,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_suoi_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2826,7 +2826,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_suoi_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2835,7 +2835,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_suoi_kinh_sau'); ?></div>
 											</div>
 										<?php
@@ -2859,7 +2859,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cam_bien_bat_tat_gat_mua_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2868,7 +2868,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cam_bien_bat_tat_gat_mua_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2877,7 +2877,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cam_bien_bat_tat_gat_mua_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -2901,7 +2901,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_gia_do_hanh_ly_tren_mui_xe'); ?></div>
 											</div>
 										<?php
@@ -2910,7 +2910,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_gia_do_hanh_ly_tren_mui_xe'); ?></div>
 											</div>
 										<?php
@@ -2919,7 +2919,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_gia_do_hanh_ly_tren_mui_xe'); ?></div>
 											</div>
 										<?php
@@ -2943,7 +2943,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_angten_vay_ca'); ?></div>
 											</div>
 										<?php
@@ -2952,7 +2952,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_angten_vay_ca'); ?></div>
 											</div>
 										<?php
@@ -2961,7 +2961,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_angten_vay_ca'); ?></div>
 											</div>
 										<?php
@@ -2985,7 +2985,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_canh_luot_gio_duoi_xe'); ?></div>
 											</div>
 										<?php
@@ -2994,7 +2994,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_canh_luot_gio_duoi_xe'); ?></div>
 											</div>
 										<?php
@@ -3003,7 +3003,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_canh_luot_gio_duoi_xe'); ?></div>
 											</div>
 										<?php
@@ -3027,7 +3027,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_mam_duc_hop_kim_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -3036,7 +3036,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_mam_duc_hop_kim_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -3045,7 +3045,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_mam_duc_hop_kim_thiet_ke_moi'); ?></div>
 											</div>
 										<?php
@@ -3069,7 +3069,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_be_buoc_hong_xe_mau_den'); ?></div>
 											</div>
 										<?php
@@ -3078,7 +3078,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_be_buoc_hong_xe_mau_den'); ?></div>
 											</div>
 										<?php
@@ -3087,7 +3087,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_be_buoc_hong_xe_mau_den'); ?></div>
 											</div>
 										<?php
@@ -3111,7 +3111,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_thanh_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3120,7 +3120,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_thanh_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3129,7 +3129,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_thanh_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3153,7 +3153,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_op_ve_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3162,7 +3162,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_op_ve_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3171,7 +3171,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_op_ve_trang_tri_the_thao'); ?></div>
 											</div>
 										<?php
@@ -3195,7 +3195,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_op_can_truoc_trang_tri'); ?></div>
 											</div>
 										<?php
@@ -3204,7 +3204,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_op_can_truoc_trang_tri'); ?></div>
 											</div>
 										<?php
@@ -3213,7 +3213,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_op_can_truoc_trang_tri'); ?></div>
 											</div>
 										<?php
@@ -3237,7 +3237,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_be_buoc_can_sau'); ?></div>
 											</div>
 										<?php
@@ -3246,7 +3246,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_be_buoc_can_sau'); ?></div>
 											</div>
 										<?php
@@ -3255,7 +3255,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_be_buoc_can_sau'); ?></div>
 											</div>
 										<?php
@@ -3279,7 +3279,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chan_bun_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -3288,7 +3288,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chan_bun_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -3297,7 +3297,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chan_bun_truoc_sau'); ?></div>
 											</div>
 										<?php
@@ -3333,7 +3333,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tay_lai_tro_luc_dien'); ?></div>
 											</div>
 										<?php
@@ -3342,7 +3342,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tay_lai_tro_luc_dien'); ?></div>
 											</div>
 										<?php
@@ -3351,7 +3351,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tay_lai_tro_luc_dien'); ?></div>
 											</div>
 										<?php
@@ -3375,7 +3375,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_vo_lang_va_can_so_boc_da'); ?></div>
 											</div>
 										<?php
@@ -3384,7 +3384,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_vo_lang_va_can_so_boc_da'); ?></div>
 											</div>
 										<?php
@@ -3393,7 +3393,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_vo_lang_va_can_so_boc_da'); ?></div>
 											</div>
 										<?php
@@ -3417,7 +3417,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dam_thoai_ranh_tay_va_dieu_khien_bang_giong_noi'); ?></div>
 											</div>
 										<?php
@@ -3426,7 +3426,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dam_thoai_ranh_tay_va_dieu_khien_bang_giong_noi'); ?></div>
 											</div>
 										<?php
@@ -3435,7 +3435,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dam_thoai_ranh_tay_va_dieu_khien_bang_giong_noi'); ?></div>
 											</div>
 										<?php
@@ -3459,7 +3459,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_nut_dieu_khien_am_thanh_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3468,7 +3468,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_nut_dieu_khien_am_thanh_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3477,7 +3477,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_nut_dieu_khien_am_thanh_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3501,7 +3501,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_kiem_soat_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3510,7 +3510,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_kiem_soat_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3519,7 +3519,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_kiem_soat_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3543,7 +3543,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_dieu_khien_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3552,7 +3552,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_dieu_khien_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3561,7 +3561,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_dieu_khien_hanh_trinh'); ?></div>
 											</div>
 										<?php
@@ -3585,7 +3585,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chia_khoa_thong_minh'); ?></div>
 											</div>
 										<?php
@@ -3594,7 +3594,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chia_khoa_thong_minh'); ?></div>
 											</div>
 										<?php
@@ -3603,7 +3603,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chia_khoa_thong_minh'); ?></div>
 											</div>
 										<?php
@@ -3627,7 +3627,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -3636,7 +3636,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -3645,7 +3645,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -3669,7 +3669,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_ga_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3678,7 +3678,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_ga_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3687,7 +3687,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_ga_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3711,7 +3711,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_lay_sang_so_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3720,7 +3720,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_lay_sang_so_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3729,7 +3729,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_lay_sang_so_tren_vo_lang'); ?></div>
 											</div>
 										<?php
@@ -3753,7 +3753,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_phanh_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3762,7 +3762,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_phanh_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3771,7 +3771,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_phanh_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3795,7 +3795,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_vo_lang_dieu_chinh_4_huong'); ?></div>
 											</div>
 										<?php
@@ -3804,7 +3804,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_vo_lang_dieu_chinh_4_huong'); ?></div>
 											</div>
 										<?php
@@ -3813,7 +3813,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_vo_lang_dieu_chinh_4_huong'); ?></div>
 											</div>
 										<?php
@@ -3837,7 +3837,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_guong_chieu_hau_trong_xe_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3846,7 +3846,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_guong_chieu_hau_trong_xe_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3855,7 +3855,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_guong_chieu_hau_trong_xe_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3879,7 +3879,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dieu_hoa_nhiet_do_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3888,7 +3888,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dieu_hoa_nhiet_do_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3897,7 +3897,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dieu_hoa_nhiet_do_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -3921,7 +3921,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dieu_hoa_nhiet_do'); ?></div>
 											</div>
 										<?php
@@ -3930,7 +3930,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dieu_hoa_nhiet_do'); ?></div>
 											</div>
 										<?php
@@ -3939,7 +3939,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dieu_hoa_nhiet_do'); ?></div>
 											</div>
 										<?php
@@ -3963,7 +3963,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chuc_nang_lam_sach_khong_khi_nanoe'); ?></div>
 											</div>
 										<?php
@@ -3972,7 +3972,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chuc_nang_lam_sach_khong_khi_nanoe'); ?></div>
 											</div>
 										<?php
@@ -3981,7 +3981,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chuc_nang_lam_sach_khong_khi_nanoe'); ?></div>
 											</div>
 										<?php
@@ -4005,7 +4005,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_loc_gio_dieu_hoa'); ?></div>
 											</div>
 										<?php
@@ -4014,7 +4014,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_loc_gio_dieu_hoa'); ?></div>
 											</div>
 										<?php
@@ -4023,7 +4023,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_loc_gio_dieu_hoa'); ?></div>
 											</div>
 										<?php
@@ -4047,7 +4047,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_mau_noi_that'); ?></div>
 											</div>
 										<?php
@@ -4056,7 +4056,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_mau_noi_that'); ?></div>
 											</div>
 										<?php
@@ -4065,7 +4065,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_mau_noi_that'); ?></div>
 											</div>
 										<?php
@@ -4089,7 +4089,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chat_lieu_ghe'); ?></div>
 											</div>
 										<?php
@@ -4098,7 +4098,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chat_lieu_ghe'); ?></div>
 											</div>
 										<?php
@@ -4107,7 +4107,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chat_lieu_ghe'); ?></div>
 											</div>
 										<?php
@@ -4131,7 +4131,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_ghe_tai_xe'); ?></div>
 											</div>
 										<?php
@@ -4140,7 +4140,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_ghe_tai_xe'); ?></div>
 											</div>
 										<?php
@@ -4149,7 +4149,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_ghe_tai_xe'); ?></div>
 											</div>
 										<?php
@@ -4173,7 +4173,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_ghe_hanh_khach_truoc'); ?></div>
 											</div>
 										<?php
@@ -4182,7 +4182,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_ghe_hanh_khach_truoc'); ?></div>
 											</div>
 										<?php
@@ -4191,7 +4191,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_ghe_hanh_khach_truoc'); ?></div>
 											</div>
 										<?php
@@ -4215,7 +4215,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_dem_tua_lung_chinh_dien'); ?></div>
 											</div>
 										<?php
@@ -4224,7 +4224,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_dem_tua_lung_chinh_dien'); ?></div>
 											</div>
 										<?php
@@ -4233,7 +4233,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_dem_tua_lung_chinh_dien'); ?></div>
 											</div>
 										<?php
@@ -4257,7 +4257,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_suoi_am_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -4266,7 +4266,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_suoi_am_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -4275,7 +4275,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_suoi_am_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -4299,7 +4299,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_hang_ghe_thu_hai_gap_60_40'); ?></div>
 											</div>
 										<?php
@@ -4308,7 +4308,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_hang_ghe_thu_hai_gap_60_40'); ?></div>
 											</div>
 										<?php
@@ -4317,7 +4317,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_hang_ghe_thu_hai_gap_60_40'); ?></div>
 											</div>
 										<?php
@@ -4341,7 +4341,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_hang_ghe_thu_hai_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4350,7 +4350,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_hang_ghe_thu_hai_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4359,7 +4359,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_hang_ghe_thu_hai_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4383,7 +4383,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_hang_ghe_thu_ba_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4392,7 +4392,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_hang_ghe_thu_ba_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4401,7 +4401,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_hang_ghe_thu_ba_gap_50_50'); ?></div>
 											</div>
 										<?php
@@ -4425,7 +4425,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cua_so_troi'); ?></div>
 											</div>
 										<?php
@@ -4434,7 +4434,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cua_so_troi'); ?></div>
 											</div>
 										<?php
@@ -4443,7 +4443,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cua_so_troi'); ?></div>
 											</div>
 										<?php
@@ -4467,7 +4467,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_guong_chieu_hau_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -4476,7 +4476,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_guong_chieu_hau_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -4485,7 +4485,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_guong_chieu_hau_chong_choi_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -4509,7 +4509,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_be_ti_tay_cho_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -4518,7 +4518,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_be_ti_tay_cho_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -4527,7 +4527,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_be_ti_tay_cho_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -4551,7 +4551,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tay_nam_cua_ma_crom'); ?></div>
 											</div>
 										<?php
@@ -4560,7 +4560,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tay_nam_cua_ma_crom'); ?></div>
 											</div>
 										<?php
@@ -4569,7 +4569,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tay_nam_cua_ma_crom'); ?></div>
 											</div>
 										<?php
@@ -4593,7 +4593,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_kinh_cua_dieu_khien_dien'); ?></div>
 											</div>
 										<?php
@@ -4602,7 +4602,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_kinh_cua_dieu_khien_dien'); ?></div>
 											</div>
 										<?php
@@ -4611,7 +4611,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_kinh_cua_dieu_khien_dien'); ?></div>
 											</div>
 										<?php
@@ -4635,7 +4635,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_man_hinh_hien_thi_da_thong_tin'); ?></div>
 											</div>
 										<?php
@@ -4644,7 +4644,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_man_hinh_hien_thi_da_thong_tin'); ?></div>
 											</div>
 										<?php
@@ -4653,7 +4653,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_man_hinh_hien_thi_da_thong_tin'); ?></div>
 											</div>
 										<?php
@@ -4677,7 +4677,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_moc_gan_ghe_an_toan_tre_em'); ?></div>
 											</div>
 										<?php
@@ -4686,7 +4686,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_moc_gan_ghe_an_toan_tre_em'); ?></div>
 											</div>
 										<?php
@@ -4695,7 +4695,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_moc_gan_ghe_an_toan_tre_em'); ?></div>
 											</div>
 										<?php
@@ -4719,7 +4719,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tam_ngan_khoang_hanh_ly'); ?></div>
 											</div>
 										<?php
@@ -4728,7 +4728,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tam_ngan_khoang_hanh_ly'); ?></div>
 											</div>
 										<?php
@@ -4737,7 +4737,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tam_ngan_khoang_hanh_ly'); ?></div>
 											</div>
 										<?php
@@ -4761,7 +4761,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tua_tay_hang_ghe_sau_voi_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -4770,7 +4770,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tua_tay_hang_ghe_sau_voi_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -4779,7 +4779,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tua_tay_hang_ghe_sau_voi_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -4803,7 +4803,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cua_gio_phia_sau_cho_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -4812,7 +4812,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cua_gio_phia_sau_cho_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -4821,7 +4821,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cua_gio_phia_sau_cho_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -4845,7 +4845,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_giai_tri'); ?></div>
 											</div>
 										<?php
@@ -4854,7 +4854,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_giai_tri'); ?></div>
 											</div>
 										<?php
@@ -4863,7 +4863,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_giai_tri'); ?></div>
 											</div>
 										<?php
@@ -4887,7 +4887,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_ung_dung_dieu_khien_tu_xa_thong_qua_dien_thoai'); ?></div>
 											</div>
 										<?php
@@ -4896,7 +4896,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_ung_dung_dieu_khien_tu_xa_thong_qua_dien_thoai'); ?></div>
 											</div>
 										<?php
@@ -4905,7 +4905,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_ung_dung_dieu_khien_tu_xa_thong_qua_dien_thoai'); ?></div>
 											</div>
 										<?php
@@ -4929,7 +4929,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cong_nguon_dien_220v_150w'); ?></div>
 											</div>
 										<?php
@@ -4938,7 +4938,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cong_nguon_dien_220v_150w'); ?></div>
 											</div>
 										<?php
@@ -4947,7 +4947,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cong_nguon_dien_220v_150w'); ?></div>
 											</div>
 										<?php
@@ -4971,7 +4971,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_so_luong_loa'); ?></div>
 											</div>
 										<?php
@@ -4980,7 +4980,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_so_luong_loa'); ?></div>
 											</div>
 										<?php
@@ -4989,7 +4989,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_so_luong_loa'); ?></div>
 											</div>
 										<?php
@@ -5013,7 +5013,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cua_gio_dieu_hoa_hang_ghe_sau'); ?></div>
 											</div>
 										<?php
@@ -5022,7 +5022,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cua_gio_dieu_hoa_hang_ghe_sau'); ?></div>
 											</div>
 										<?php
@@ -5031,7 +5031,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cua_gio_dieu_hoa_hang_ghe_sau'); ?></div>
 											</div>
 										<?php
@@ -5055,7 +5055,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_be_ty_tay_trung_tam_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -5064,7 +5064,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_be_ty_tay_trung_tam_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -5073,7 +5073,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_be_ty_tay_trung_tam_hang_ghe_truoc'); ?></div>
 											</div>
 										<?php
@@ -5097,7 +5097,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_be_ty_tay_trung_tam_hang_ghe_thu_hai_co_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -5106,7 +5106,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_be_ty_tay_trung_tam_hang_ghe_thu_hai_co_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -5115,7 +5115,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_be_ty_tay_trung_tam_hang_ghe_thu_hai_co_gia_de_ly'); ?></div>
 											</div>
 										<?php
@@ -5139,7 +5139,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cong_12v_hang_ghe_thu_nhat_va_thu_ba'); ?></div>
 											</div>
 										<?php
@@ -5148,7 +5148,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cong_12v_hang_ghe_thu_nhat_va_thu_ba'); ?></div>
 											</div>
 										<?php
@@ -5157,7 +5157,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cong_12v_hang_ghe_thu_nhat_va_thu_ba'); ?></div>
 											</div>
 										<?php
@@ -5181,7 +5181,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cong_sac_usb_hang_ghe_thu_hai'); ?></div>
 											</div>
 										<?php
@@ -5190,7 +5190,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cong_sac_usb_hang_ghe_thu_hai'); ?></div>
 											</div>
 										<?php
@@ -5199,7 +5199,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cong_sac_usb_hang_ghe_thu_hai'); ?></div>
 											</div>
 										<?php
@@ -5235,7 +5235,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_kiem_soat_hanh_trinh_thich_ung'); ?></div>
 											</div>
 										<?php
@@ -5244,7 +5244,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_kiem_soat_hanh_trinh_thich_ung'); ?></div>
 											</div>
 										<?php
@@ -5253,7 +5253,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_kiem_soat_hanh_trinh_thich_ung'); ?></div>
 											</div>
 										<?php
@@ -5277,7 +5277,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_canh_bao_diem_mu'); ?></div>
 											</div>
 										<?php
@@ -5286,7 +5286,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_canh_bao_diem_mu'); ?></div>
 											</div>
 										<?php
@@ -5295,7 +5295,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_canh_bao_diem_mu'); ?></div>
 											</div>
 										<?php
@@ -5319,7 +5319,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_canh_bao_va_giam_thieu_va_cham_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -5328,7 +5328,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_canh_bao_va_giam_thieu_va_cham_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -5337,7 +5337,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_canh_bao_va_giam_thieu_va_cham_phia_truoc'); ?></div>
 											</div>
 										<?php
@@ -5361,7 +5361,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_chong_tang_toc_ngoai_y_muon'); ?></div>
 											</div>
 										<?php
@@ -5370,7 +5370,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_chong_tang_toc_ngoai_y_muon'); ?></div>
 											</div>
 										<?php
@@ -5379,7 +5379,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_chong_tang_toc_ngoai_y_muon'); ?></div>
 											</div>
 										<?php
@@ -5403,7 +5403,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_canh_bao_lech_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5412,7 +5412,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_canh_bao_lech_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5421,7 +5421,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_canh_bao_lech_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5445,7 +5445,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_canh_bao_phuong_tien_cat_ngang_khi_lui_xe'); ?></div>
 											</div>
 										<?php
@@ -5454,7 +5454,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_canh_bao_phuong_tien_cat_ngang_khi_lui_xe'); ?></div>
 											</div>
 										<?php
@@ -5463,7 +5463,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_canh_bao_phuong_tien_cat_ngang_khi_lui_xe'); ?></div>
 											</div>
 										<?php
@@ -5487,7 +5487,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_ho_tro_doi_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5496,7 +5496,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_ho_tro_doi_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5505,7 +5505,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_ho_tro_doi_lan_duong'); ?></div>
 											</div>
 										<?php
@@ -5529,7 +5529,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cam_bien_goc'); ?></div>
 											</div>
 										<?php
@@ -5538,7 +5538,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cam_bien_goc'); ?></div>
 											</div>
 										<?php
@@ -5547,7 +5547,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cam_bien_goc'); ?></div>
 											</div>
 										<?php
@@ -5571,7 +5571,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_day_dai_an_toan_cho_tat_ca_cac_ghe'); ?></div>
 											</div>
 										<?php
@@ -5580,7 +5580,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_day_dai_an_toan_cho_tat_ca_cac_ghe'); ?></div>
 											</div>
 										<?php
@@ -5589,7 +5589,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_day_dai_an_toan_cho_tat_ca_cac_ghe'); ?></div>
 											</div>
 										<?php
@@ -5613,7 +5613,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_canh_bao_that_day_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5622,7 +5622,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_canh_bao_that_day_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5631,7 +5631,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_canh_bao_that_day_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5655,7 +5655,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tui_khi_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5664,7 +5664,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tui_khi_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5673,7 +5673,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tui_khi_an_toan'); ?></div>
 											</div>
 										<?php
@@ -5697,7 +5697,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tui_khi_phia_truoc_cho_nguoi_lai_va_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -5706,7 +5706,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tui_khi_phia_truoc_cho_nguoi_lai_va_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -5715,7 +5715,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tui_khi_phia_truoc_cho_nguoi_lai_va_hanh_khach'); ?></div>
 											</div>
 										<?php
@@ -5739,7 +5739,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tui_khi_ben'); ?></div>
 											</div>
 										<?php
@@ -5748,7 +5748,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tui_khi_ben'); ?></div>
 											</div>
 										<?php
@@ -5757,7 +5757,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tui_khi_ben'); ?></div>
 											</div>
 										<?php
@@ -5781,7 +5781,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tui_khi_rem_doc_hai_ben_than_xe'); ?></div>
 											</div>
 										<?php
@@ -5790,7 +5790,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tui_khi_rem_doc_hai_ben_than_xe'); ?></div>
 											</div>
 										<?php
@@ -5799,7 +5799,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tui_khi_rem_doc_hai_ben_than_xe'); ?></div>
 											</div>
 										<?php
@@ -5823,7 +5823,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_tui_khi_dau_goi_bao_ve_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -5832,7 +5832,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_tui_khi_dau_goi_bao_ve_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -5841,7 +5841,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_tui_khi_dau_goi_bao_ve_nguoi_lai'); ?></div>
 											</div>
 										<?php
@@ -5865,7 +5865,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_co_cau_cang_dai_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -5874,7 +5874,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_co_cau_cang_dai_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -5883,7 +5883,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_co_cau_cang_dai_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -5907,7 +5907,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_camera_toan_canh_360'); ?></div>
 											</div>
 										<?php
@@ -5916,7 +5916,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_camera_toan_canh_360'); ?></div>
 											</div>
 										<?php
@@ -5925,7 +5925,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_camera_toan_canh_360'); ?></div>
 											</div>
 										<?php
@@ -5949,7 +5949,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_camera_lui'); ?></div>
 											</div>
 										<?php
@@ -5958,7 +5958,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_camera_lui'); ?></div>
 											</div>
 										<?php
@@ -5967,7 +5967,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_camera_lui'); ?></div>
 											</div>
 										<?php
@@ -5991,7 +5991,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_chong_bo_cung_phanh'); ?></div>
 											</div>
 										<?php
@@ -6000,7 +6000,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_chong_bo_cung_phanh'); ?></div>
 											</div>
 										<?php
@@ -6009,7 +6009,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_chong_bo_cung_phanh'); ?></div>
 											</div>
 										<?php
@@ -6033,7 +6033,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_phan_phoi_luc_phanh_dien_tu'); ?></div>
 											</div>
 										<?php
@@ -6042,7 +6042,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_phan_phoi_luc_phanh_dien_tu'); ?></div>
 											</div>
 										<?php
@@ -6051,7 +6051,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_phan_phoi_luc_phanh_dien_tu'); ?></div>
 											</div>
 										<?php
@@ -6075,7 +6075,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_tro_luc_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6084,7 +6084,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_tro_luc_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6093,7 +6093,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_tro_luc_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6117,7 +6117,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_phanh_tay_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -6126,7 +6126,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_phanh_tay_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -6135,7 +6135,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_phanh_tay_dien_tu_giu_phanh_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -6159,7 +6159,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_can_bang_dien_tu_kiem_soat_luc_keo'); ?></div>
 											</div>
 										<?php
@@ -6168,7 +6168,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_can_bang_dien_tu_kiem_soat_luc_keo'); ?></div>
 											</div>
 										<?php
@@ -6177,7 +6177,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_can_bang_dien_tu_kiem_soat_luc_keo'); ?></div>
 											</div>
 										<?php
@@ -6201,7 +6201,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_khoi_hanh_ngang_doc'); ?></div>
 											</div>
 										<?php
@@ -6210,7 +6210,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_khoi_hanh_ngang_doc'); ?></div>
 											</div>
 										<?php
@@ -6219,7 +6219,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_khoi_hanh_ngang_doc'); ?></div>
 											</div>
 										<?php
@@ -6243,7 +6243,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_ho_tro_xuong_doc'); ?></div>
 											</div>
 										<?php
@@ -6252,7 +6252,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_ho_tro_xuong_doc'); ?></div>
 											</div>
 										<?php
@@ -6261,7 +6261,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_ho_tro_xuong_doc'); ?></div>
 											</div>
 										<?php
@@ -6285,7 +6285,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_che_do_lua_chon_dia_hinh_off_road'); ?></div>
 											</div>
 										<?php
@@ -6294,7 +6294,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_che_do_lua_chon_dia_hinh_off_road'); ?></div>
 											</div>
 										<?php
@@ -6303,7 +6303,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_che_do_lua_chon_dia_hinh_off_road'); ?></div>
 											</div>
 										<?php
@@ -6327,7 +6327,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_he_thong_kiem_soat_chan_ga_khi_phanh'); ?></div>
 											</div>
 										<?php
@@ -6336,7 +6336,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_he_thong_kiem_soat_chan_ga_khi_phanh'); ?></div>
 											</div>
 										<?php
@@ -6345,7 +6345,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_he_thong_kiem_soat_chan_ga_khi_phanh'); ?></div>
 											</div>
 										<?php
@@ -6369,7 +6369,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chia_khoa_ma_hoa_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6378,7 +6378,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chia_khoa_ma_hoa_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6387,7 +6387,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chia_khoa_ma_hoa_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6411,7 +6411,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chia_khoa_thong_minh_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -6420,7 +6420,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chia_khoa_thong_minh_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -6429,7 +6429,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chia_khoa_thong_minh_khoi_dong_bang_nut_bam'); ?></div>
 											</div>
 										<?php
@@ -6453,7 +6453,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_khoa_cua_tu_xa'); ?></div>
 											</div>
 										<?php
@@ -6462,7 +6462,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_khoa_cua_tu_xa'); ?></div>
 											</div>
 										<?php
@@ -6471,7 +6471,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_khoa_cua_tu_xa'); ?></div>
 											</div>
 										<?php
@@ -6495,7 +6495,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_den_canh_bao_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6504,7 +6504,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_den_canh_bao_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6513,7 +6513,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_den_canh_bao_phanh_khan_cap'); ?></div>
 											</div>
 										<?php
@@ -6537,7 +6537,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chuc_nang_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6546,7 +6546,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chuc_nang_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6555,7 +6555,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chuc_nang_chong_trom'); ?></div>
 											</div>
 										<?php
@@ -6579,7 +6579,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cam_bien_truoc_xe'); ?></div>
 											</div>
 										<?php
@@ -6588,7 +6588,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cam_bien_truoc_xe'); ?></div>
 											</div>
 										<?php
@@ -6597,7 +6597,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cam_bien_truoc_xe'); ?></div>
 											</div>
 										<?php
@@ -6621,7 +6621,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_cam_bien_sau_xe'); ?></div>
 											</div>
 										<?php
@@ -6630,7 +6630,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_cam_bien_sau_xe'); ?></div>
 											</div>
 										<?php
@@ -6639,7 +6639,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_cam_bien_sau_xe'); ?></div>
 											</div>
 										<?php
@@ -6663,7 +6663,7 @@
 										<?php
 										if (get_field('pb1_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb1_chot_cua_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -6672,7 +6672,7 @@
 										<?php
 										if (get_field('pb2_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb2_chot_cua_tu_dong'); ?></div>
 											</div>
 										<?php
@@ -6681,7 +6681,7 @@
 										<?php
 										if (get_field('pb3_ten_phien_ban')) {
 										?>
-											<div class="col-lg-<?php echo $col_size; ?>">
+												<div class="col-<?php echo $col_size; ?> col-md-<?php echo $col_size; ?> col-lg-<?php echo $col_size; ?>">
 												<div class="hp-compare-item"><?php echo get_field('pb3_chot_cua_tu_dong'); ?></div>
 											</div>
 										<?php

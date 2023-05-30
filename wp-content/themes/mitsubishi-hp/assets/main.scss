@@ -1019,6 +1019,27 @@ main {
   }
 }
 
+//Chính sách bảo mật
+.hp-policy-page {
+  .hp-policy-header {
+    padding: 186px 0 35px;
+    background-color: #000;
+    text-align: center;
+    h1 {
+      font-size: 63px;
+      line-height: 72px;
+      font-weight: 700;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+  }
+  .hp-policy-content {
+    padding: 40px 20px;
+   white-space: pre-wrap;
+   
+  }
+}
+
 // Sản phẩm
 .hp-product-page {
   .hp-product-banner {
@@ -1440,6 +1461,28 @@ main {
           margin-bottom: 20px;
         }
       }
+      @media(max-width:991px){
+        padding: 0 21px;
+    }
+    @media(max-width:480px){
+      padding: 40px 38px;
+    }
+    }
+  }
+  .hp-sect-try{
+    .modal{
+      .modal-dialog{
+        width: 100%;
+        max-width: 55rem;
+        padding: 10rem 3rem 3rem;
+        .modal-content{
+          .modal-header{
+            justify-content: end;
+            border: none;
+          }
+          
+        }
+      }
     }
   }
 }
@@ -1632,6 +1675,45 @@ main {
         display: none;
       }
     }
+  }
+}
+
+//Khám phá
+.hp-product-feature{
+  .breadcrumb__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+    padding-left: 0;
+    z-index: 2;
+    .breadcrumb__item {
+      display: flex;
+      align-items: center;
+      color: #bfc2c4;
+      text-transform: uppercase;
+      font-size: 12px;
+      line-height: 1.6rem;
+      padding-right: 15px;
+      a{
+        color: #686d71;
+        text-decoration: none;
+      }
+    }
+  }  
+  .hero__body {
+    text-align: center;
+    max-width: 132rem;
+    padding: 6rem 0 1.5rem;
+    margin: 0 auto;
+    .title {
+      margin-bottom: 3rem;
+      font-size: 4.3rem;
+      font-weight: 700;
+    }
+  }
+  .img-100{
+    width: 100%;
   }
 }
 /**
@@ -1929,5 +2011,345 @@ main {
         transform: translateX(0);
       }
     }
+  }
+}
+
+
+.banner-hero {
+  .banner-hero-items{
+      .slick-arrow{
+          &.slick-prev,.slick-next{
+            z-index: 99;
+           
+          }
+          &.slick-prev{
+              left: 10px;
+              background-image: url('http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/arrow-left-white.svg');
+
+              width: 100px;
+              background-repeat: no-repeat;
+              &::before{
+                  content: "";
+              }
+              &:hover{
+                  background-image: url('http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/arrow-left-red.svg');
+              }
+          }
+          &.slick-next{
+              right: 10px;
+              background-image: url('http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/arrow-right-white.svg');
+
+              width: 100px;
+              background-repeat: no-repeat;
+              &::before{
+                  content: "";
+              }
+              &:hover{
+                  background-image: url('http://localhost/mitsubishi-hp/wp-content/uploads/2023/05/arrow-right-red.svg');
+              }
+          }
+        }
+      .banner-hero-item {
+          .banner-hero-item-content {
+              &::before {
+                  content: "";
+                  display: block;
+                  background-color: rgba(0, 0, 0, .3);
+                  z-index: 2;
+                  width: 100%;
+                  height: 100%;
+                  top: 0;
+                  position: absolute;
+                  left: 0;
+              }
+              min-height: 900px;
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              position: relative;
+              width: 100%;
+              color: #fff;
+              text-align: right;
+              display: flex;
+              align-items: center;
+              justify-content: flex-end;
+              z-index: 2;
+              @media(max-width:991px){
+                min-height: 0;
+            }
+              @media(max-width:480px){
+                min-height: 0;
+            }
+
+              .content-right {
+                  display: flex;
+                  flex-direction: column;
+                  align-items: flex-end;
+                  text-align: right;
+                  width: 50%;
+                  font-size: 2.1rem;
+                  line-height: 1.7;
+                  padding: 0 11rem 0 1rem;
+                  z-index: 4;
+                  position: absolute;
+                  @media(max-width:991px){
+                      font-size: 15px;
+                      padding: 10px;
+                      width: 100%;
+                  }
+                  @media(max-width:480px){
+                      font-size: 12px;
+                      padding: 10px;
+                      width: 100%;
+                  }
+                  img{
+                    @media(max-width:991px){
+                      height: 100%;
+                  }
+                  @media(max-width:480px){
+                    height: 84px;
+                  }
+                  }
+              }
+          }
+      }
+  }
+}
+
+.mit-production{ 
+  .hp-product-versions-items {
+    padding: 40px 0;
+    margin-bottom: 40px;
+   a{
+    color: #000;
+    .hp-product-version-item {
+      padding: 90px 0 30px;
+      position: relative;
+      text-align: center;
+      cursor: pointer;
+      &:hover {
+        color: #fff;
+        .hp-pv-hover {
+          &::after {
+            animation: m;
+            animation-fill-mode: backwards;
+            animation-duration: 0.3s;
+            animation-delay: 0.15s;
+            transform: skewX(0) translateX(-100%);
+          }
+          .hp-pv-hover-inner {
+            max-width: 100%;
+            opacity: 1;
+          }
+        }
+      }
+      .hp-pv-hover {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 333px;
+        max-width: 65%;
+        display: flex;
+        flex-direction: column;
+        flex: 1 1 auto;
+        z-index: 1;
+        transform: translateX(-50%);
+        height:92%;
+        overflow: hidden;
+        backface-visibility: hidden;
+        &:after {
+          content: "";
+          width: 159%;
+          height: 100%;
+          position: absolute;
+          background-color: transparent;
+          left: 0;
+          top: 0;
+          transform-origin: bottom right;
+          animation: n;
+          animation-duration: 0.3s;
+        }
+        .hp-pv-hover-inner {
+          background-repeat: no-repeat;
+          opacity: 0;
+          background-color: #5a646e;
+          flex: 1 1 auto;
+          position: relative;
+          transition: opacity 0.15s ease-out 0.45s;
+          transition-delay: 0s;
+          background-position: 50%;
+          background-size: cover;
+          &::before {
+            position: absolute;
+            content: "";
+            left: 0;
+            width: 100%;
+            height: 100%;
+            top: 0;
+            // background: linear-gradient(
+            //   180deg,
+            //   transparent 50%,
+            //   rgba(0, 0, 0, 0.54) 70%
+            // );
+          }
+        }
+      }
+      .hp-pv-image {
+        height: 345px;
+        overflow: hidden;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        position: relative;
+        z-index: 2;
+        img {
+          width: 85%;
+          object-fit: contain;
+        }
+      }
+      .hp-pv-name {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 5px;
+        font-size: 21px;
+        line-height: 27px;
+        font-weight: 700;
+        text-transform: uppercase;
+      }
+      .hp-pv-price {
+        position: relative;
+        z-index: 2;
+        margin-bottom: 20px;
+      }
+    }
+   }
+  }
+}
+
+.editor-car--odds{
+  padding:4rem 0;
+}
+.discovery{
+  padding: 4rem 0;
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.discovery--reverse .discovery__main {
+  margin-left: 8.33333333%;
+  padding-left: 2rem;
+  padding-right: 0;
+}
+
+.discovery__body {
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: calc(8.33333333% + 2rem);
+  padding: 40px;
+  max-width: 360px;
+  background: #000;
+  color: #fff;
+}
+
+.title--3 {
+  font-size: 35px;
+  line-height: 45px;
+  /*color: #fff;*/
+}
+.editor-car__body .title--3{
+  font-weight: bold;
+  margin: 15px 0;
+}
+.discovery__main {
+  max-width: 91.66666667%;
+  margin-right: 2rem;
+}
+.discovery--reverse .discovery__main{
+  margin-right: 0;
+}
+.editor-car--odds .col-md-4.offset-md-1 .editor-car__item{
+  padding-top: 120px ;
+}
+/*animated services*/
+.hp-si-content {
+  padding: 40px 150px;
+  position: relative;
+}
+.hp-si-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 47px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.hp-service-item.hp-service-item-black {
+  background: #000;
+}
+.discovery--reverse .discovery__main .discovery__body{
+  right: 16%;
+  left: auto;
+}
+.discovery__main .discovery__body{
+  left: 16%;
+  right: auto;
+}
+.discovery__thumb img{
+  min-height: 600px;
+  max-height: 650px;
+  object-fit: cover;
+  width: 100%;
+}
+.hp-service-item.hp-service-item-black  .hp-si-content{
+  color: #fff;
+}
+@media (max-width:1279px) {
+  * img{
+    width: 100%;
+  }
+  .discovery__body{
+    /*max-width: 70%;*/
+    left: auto;
+    right: calc(17% + 2rem);
+  }
+}
+@media(max-width:767px){
+  * img{
+    width: 100%;
+  }
+  .discovery--reverse .discovery__main,.discovery__main{
+    margin: 0;
+    max-width: 100%;
+    padding: 0;
+  }
+  .hp-si-title{
+    font-size: 32px;
+  }
+  .editor-car--odds{
+    padding: 2rem 0;
+  }
+  .editor-car--odds .col-md-4.offset-md-1 .editor-car__item{
+    padding-top: 40px;
+  }
+  .discovery__body{
+    max-width: 70%;
+    right: calc(5% + 2rem);
+  }
+  .hp-si-content{
+    padding: 30px 20px;
+  }
+  .title--3{
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .discovery{
+    margin: 3rem 0;
+  }
+  .discovery__thumb img{
+    min-height: 400px;
+    object-fit: cover;
+  }
+  .discovery__body {
+    padding: 25px;
   }
 }
