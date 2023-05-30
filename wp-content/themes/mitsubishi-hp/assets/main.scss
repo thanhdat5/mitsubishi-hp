@@ -371,7 +371,14 @@ body {
   }
 
   //menu-mobile
+  .navbar-expand-lg {
+    background: red !important;
+  }
+
   .nav-mb {
+    .navbar-toggler {
+      border: none !important;
+    }
 
     .hp-hn-bottom {
       // @include mobile {
