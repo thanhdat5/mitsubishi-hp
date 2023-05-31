@@ -1,4 +1,4 @@
-// Webpack Imports
+// pngack Imports
 import * as bootstrap from 'bootstrap';
 
 
@@ -49,74 +49,74 @@ import * as bootstrap from 'bootstrap';
 	})
 	jQuery('.banner-hero-items').slick({
 		slidesToShow: 1,
-		slidesToScroll: 1,      
+		slidesToScroll: 1,
 		arrows: true,
-		dots: false ,
+		dots: false,
 		infinite: true,
 		responsive: [
-		  {
-			breakpoint: 991,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 1,
-			  slidesToScroll: 1,      
+			{
+				breakpoint: 991,
+				settings: {
+					arrows: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+				}
 			}
-		  },
-		  {
-			breakpoint: 768,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 1,
-			  slidesToScroll: 1,      
-			}
-		  },
-		  {
-			breakpoint: 480,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 1,
-			  slidesToScroll: 1,      
-			}
-		  }
 		]
 	});
 	jQuery('.hp-product-versions-items').slick({
 		slidesToShow: 3,
-		slidesToScroll: 1,      
+		slidesToScroll: 1,
 		arrows: true,
-		dots: false ,
-		centerMode:true,
+		dots: false,
+		centerMode: true,
 		responsive: [
-		  {
-			breakpoint: 991,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 3,
-			  slidesToScroll: 1,   
-			  focusOnSelect: false, 
+			{
+				breakpoint: 991,
+				settings: {
+					arrows: false,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					focusOnSelect: false,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					arrows: false,
+					slidesToShow: 3,
+					slidesToScroll: 1,
+					focusOnSelect: false,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					arrows: false,
+					slidesToShow: 1,
+					slidesToScroll: 1,
+					focusOnSelect: false,
+				}
 			}
-		  },
-		  {
-			breakpoint: 768,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 3,
-			  slidesToScroll: 1,   
-			  focusOnSelect: false, 
-			}
-		  },
-		  {
-			breakpoint: 480,
-			settings: {
-			  arrows: false,
-			  slidesToShow: 1,
-			  slidesToScroll: 1, 
-			  focusOnSelect: false,
-			}
-		  }
 		]
-	  });
-	
+	});
+
 	// Handle product page
 	jQuery('.hp-pv-tabs li:first-child').addClass('active');
 	jQuery('.hp-pv-infors .hp-pv-info:first-child').addClass('active');
@@ -182,20 +182,20 @@ import * as bootstrap from 'bootstrap';
 			colors: [
 				{
 					bgColor: 'rgb(234, 234, 234)', color: '#ff8c00', name: 'Cam', imageList: [
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_camden.png'},
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_frontleft.png'},
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_frontright.png'},
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_rearright.png'},
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_rearleft.png'}
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_camden.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_frontleft.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_frontright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_rearright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_rearleft.png' }
 					]
 				},
 				{
 					bgColor: 'rgb(237, 237, 237)', color: '#ffffff', name: 'Trắng', imageList: [
-						{image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_trang.png'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_trang_frontleft.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_trang_frontright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_trang_rearright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_trang_rearleft.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_trang_frontleft.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_trang_frontright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_trang_rearright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_trang_rearleft.png' },
 					]
 				},
 				{
@@ -203,11 +203,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#c9c9c9',
 					name: 'Nâu',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_khung_nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_nau_frontleft.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_nau_frontright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_nau_rearright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_nau_rearleft.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_nau_frontleft.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_nau_frontright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_nau_rearright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_nau_rearleft.png' },
 					]
 				},
 				{
@@ -215,15 +215,15 @@ import * as bootstrap from 'bootstrap';
 					color: '#000000',
 					name: 'Đen',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_khung_den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_den_frontleft.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_den_frontright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_den_rearright.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/xpander_cross_den_rearleft.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_khung_den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_den_frontleft.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_den_frontright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_den_rearright.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander_cross_den_rearleft.png' },
 					]
 				}
 			],
-	
+
 		},
 		{
 			name: "Attrage",
@@ -233,11 +233,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#ffffff',
 					name: 'Trắng',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-khungxe-trang2-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-left-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-right-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-right-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-left-trang.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-khungxe-trang2-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-left-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-right-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-right-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-left-trang.png' },
 					]
 				},
 				{
@@ -245,11 +245,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#c9c9c9',
 					name: 'Xám',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-khungxe-xam2-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-left-xam.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-right-xam.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-right-xam.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-left-xam.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-khungxe-xam2-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-left-xam.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-right-xam.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-right-xam.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-left-xam.png' },
 					]
 				},
 				{
@@ -257,11 +257,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#dd0000',
 					name: 'Đỏ',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-khungxe-do2-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-left-do.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-front-right-do.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-right-do.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/attrage-rear-left-do.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-khungxe-do2-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-left-do.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-front-right-do.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-right-do.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/attrage-rear-left-do.png' },
 					]
 				}
 			]
@@ -274,11 +274,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#ffffff',
 					name: 'Trắng',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-khungxe-trang.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-feft-trang.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-right-trang.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-right-trang.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-left-trang.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-khungxe-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-feft-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-right-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-right-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-left-trang.png' },
 					]
 				},
 				{
@@ -286,11 +286,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#964b00',
 					name: 'Nâu',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-khungxe-nau.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-feft-nau.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-right-nau.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-right-nau.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-left-nau.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-khungxe-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-feft-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-right-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-right-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-left-nau.png' },
 					]
 				},
 				{
@@ -298,11 +298,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#000000',
 					name: 'Đen',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-khungxe-den.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-left-den.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-right-den.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-right-den.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-left-den.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-khungxe-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-left-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-right-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-right-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-left-den.png' },
 					]
 				},
 				{
@@ -310,11 +310,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#c9c9c9',
 					name: 'Xám',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-khungxe-xambac.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-feft-xambac.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-front-right-xambac.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-right-xambac.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/xpander-rear-left-xambac.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-khungxe-xambac.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-feft-xambac.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-front-right-xambac.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-right-xambac.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/xpander-rear-left-xambac.png' },
 					]
 				},
 			]
@@ -327,11 +327,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#ffffff',
 					name: 'Trắng',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander-khungxe-trang.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_left_trang-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_right_trang-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_right_trang-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_left_trang-min.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander-khungxe-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_left_trang-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_right_trang-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_right_trang-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_left_trang-min.png' },
 					]
 				},
 				{
@@ -339,11 +339,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#dd0000',
 					name: 'Đỏ',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander-khungxe-do.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_left_do-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_right_do-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_right_do-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_left_do-min.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander-khungxe-do.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_left_do-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_right_do-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_right_do-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_left_do-min.png' },
 					]
 				},
 				{
@@ -351,11 +351,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#c9c9c9',
 					name: 'Xám',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander-khungxe-xam.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_left_xam-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_right_xam-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_right_xam-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_left_xam-min.webp'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander-khungxe-xam.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_left_xam-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_right_xam-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_right_xam-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_left_xam-min.png' },
 					]
 				},
 				{
@@ -363,11 +363,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#000000',
 					name: 'Đen',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander-khungxe-den.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_left_den-min.webp'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_right_den-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_right_den-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_left_den-min.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander-khungxe-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_left_den-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_right_den-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_right_den-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_left_den-min.png' },
 					]
 				},
 				{
@@ -375,11 +375,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#964b00',
 					name: 'Nâu',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander-khungxe-nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_left_nau-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_front_right_nau-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_right_nau-min.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/outlander_rear_left_nau-min.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander-khungxe-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_left_nau-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_front_right_nau-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_right_nau-min.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/outlander_rear_left_nau-min.png' },
 					]
 				}
 			]
@@ -392,11 +392,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#ffffff',
 					name: 'Trắng',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-khung-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-left-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-right-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-rear-left-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-right-right-trang.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-khung-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-left-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-right-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-rear-left-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-right-right-trang.png' },
 					]
 				},
 				{
@@ -404,11 +404,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#000000',
 					name: 'Đen',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-khung-den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-left-den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-right-den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-rear-left-den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-right-right-den.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-khung-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-left-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-right-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-rear-left-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-right-right-den.png' },
 					]
 				},
 				{
@@ -416,11 +416,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#964b00',
 					name: 'Nâu',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-khung-nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-left-nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-front-right-nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-rear-left-nau.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/03/pa%CC%A3ero-sport-right-right-nau.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-khung-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-left-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-front-right-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-rear-left-nau.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/pa%CC%A3ero-sport-right-right-nau.png' },
 					]
 				}
 			]
@@ -433,11 +433,11 @@ import * as bootstrap from 'bootstrap';
 					color: '#ff8c00',
 					name: 'Cam',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-side-cam.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-cam-front-left.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-cam-front-right.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-cam-rear-right.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-cam-rear-high.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-side-cam.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-cam-front-left.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-cam-front-right.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-cam-rear-right.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-cam-rear-high.png' },
 					]
 				},
 				{
@@ -445,8 +445,8 @@ import * as bootstrap from 'bootstrap';
 					color: '#ffffff',
 					name: 'Trắng',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-khung-trang.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-side-trang.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-khung-trang.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-side-trang.png' },
 					]
 				},
 				{
@@ -454,20 +454,20 @@ import * as bootstrap from 'bootstrap';
 					color: '#000000',
 					name: 'Đen',
 					imageList: [
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-khung-den.webp?v=2022-08-11-1420'},
-						{image: 'https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/new-triton-athlete-side-den.webp?v=2022-08-11-1420'},
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-khung-den.png' },
+						{ image: 'wp-content/themes/mitsubishi-hp/assets/images/new-triton-athlete-side-den.png' },
 					]
 				}
 			]
 		}
 	];
-	
+
 	function select_car_change(selectedIndex) {
 		let sliderLength = CARS_LIST[selectedIndex].colors[0].imageList.length
 		jQuery('#Car_Selected').text(CARS_LIST[selectedIndex].name);
 		jQuery('#Car_Options .dropdown-item').removeClass('active');
 		jQuery(`#Car_${selectedIndex}_Option`).addClass('active');
-	
+
 		jQuery('.hp-pm-car').removeClass('show');
 		jQuery(`#Car_${selectedIndex}_Model .hp-pm-car-bg span:nth-child(2)`).addClass('active');
 		jQuery(`#Car_${selectedIndex}_Model .hp-pm-car-bg span:nth-child(2)`).addClass('top');
@@ -480,10 +480,10 @@ import * as bootstrap from 'bootstrap';
 		jQuery(`#Car_${selectedIndex}_Model .hp-pm-color:first-child`).addClass('active');
 		jQuery(`#Car_${selectedIndex}_Model .hp-pm-text`).text(CARS_LIST[selectedIndex].colors[0].name);
 		jQuery(`#Car_${selectedIndex}_Model`).addClass('show');
-	
+
 		slick_slider('Car_' + selectedIndex + '_Model', selectedIndex, 0)
 	}
-	
+
 	function previewAnimated() {
 		var scrollTop = jQuery(window).scrollTop();
 		var topDistance = jQuery('.hp-preview').offset().top;
@@ -494,7 +494,7 @@ import * as bootstrap from 'bootstrap';
 			}, 100)
 		}
 	}
-	
+
 	jQuery(function () {
 		jQuery('.hp-pm-car').each(function () {
 			var elId = jQuery(this).attr('id');
@@ -509,9 +509,9 @@ import * as bootstrap from 'bootstrap';
 			jQuery(`#${elId} .hp-pm-car-bg`).html(bgInnerHTML);
 			jQuery(`#${elId} .hp-pm-colors`).html(colorsInnerHTML);
 			jQuery(`#${elId} .hp-pm-text`).text(CARS_LIST[index].colors[0].name);
-	
+
 			jQuery(`#${elId} .hp-pm-color`).on('click', function () {
-	
+
 				// console.log(elIdFinal)
 				jQuery(`#${elId} .hp-pm-color`).removeClass('active');
 				jQuery(this).addClass("active");
@@ -522,33 +522,33 @@ import * as bootstrap from 'bootstrap';
 				setTimeout(() => {
 					jQuery(`#${elId} .hp-pm-car-bg span:not(:first-child):not(:nth-child(${(colorId + 1)}))`).removeClass('active');
 				}, 300)
-	
+
 				let sliderLength = (CARS_LIST[index].colors[colorId].imageList.length);
 				jQuery(`#${elId} .hp-pm-paging`).html('01' + '<span>/</span>' + '0' + sliderLength);
 				jQuery(`#${elId} .hp-pm-car-wheel`).removeClass('hide');
 				jQuery(`#${elId} .hp-pm-car-body img`).attr('src', CARS_LIST[index].colors[colorId].imageList[0].image);
 				jQuery(`#${elId} .hp-pm-text`).text(CARS_LIST[index].colors[colorId].name);
-	
+
 				// slick_slider(elId,index)
 				slick_slider(elId, index, colorId)
 			});
-	
+
 			slick_slider(elId, 0, 0)
 		});
-	
+
 		previewAnimated();
-	
+
 		jQuery('#Car_Options .dropdown-item').on('click', function () {
 			const elId = jQuery(this).attr('id');
 			const index = elId.replaceAll('Car_', '').replaceAll('_Option', '')
 			select_car_change(Number(index));
 		})
 	})
-	
+
 	jQuery(window).on('scroll', function () {
 		previewAnimated();
 	});
-	
+
 	function slick_slider(id, idx, colorId) {
 		let index = 1;
 		let i = index;
@@ -572,7 +572,7 @@ import * as bootstrap from 'bootstrap';
 				jQuery(`#${id} .hp-pm-paging`).html('0' + (i + 1) + '<span>/</span>' + '0' + sliderLength)
 				// jQuery(`#${id} .hp-pm-paging`).html('0' + (i + 1) + '<span>/</span>' + '05')
 			} else {
-	
+
 				setTimeout(() => {
 					jQuery(`#${id} .hp-pm-car-wheel`).addClass('hide');
 				})
@@ -580,15 +580,15 @@ import * as bootstrap from 'bootstrap';
 				// jQuery(`#${id} .hp-pm-car-body img`).attr('src', CARS_LIST[idx].colors[colorId].imageList[i].image);
 				jQuery(`#${id} .hp-pm-car-body img`).attr('src', CARS_LIST[idx].colors[colorId].imageList[i].image)
 				jQuery(`#${id} .hp-pm-paging`).html('0' + (i + 1) + '<span>/</span>' + '0' + sliderLength)
-	
+
 			}
-	
+
 		});
 		jQuery(`#${id} .hp-pm-controls .prev `).on('click', function () {
 			i = index;
 			console.log(index)
 			if (index === 1) {
-	
+
 				index = sliderLength;
 				// i = 4
 				i = index
@@ -621,12 +621,12 @@ import * as bootstrap from 'bootstrap';
 					jQuery(`#${id} .hp-pm-paging`).html('0' + (i) + '<span>/</span>' + '0' + sliderLength)
 				}
 			}
-	
-	
+
+
 		});
 	}
-	
 
-	
+
+
 })();
 
