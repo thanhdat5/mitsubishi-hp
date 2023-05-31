@@ -3275,3 +3275,79 @@ main {
     }
   }
 }
+
+// hỗ trợ trả góp
+.title--uppercase {
+  text-transform: uppercase;
+}
+
+.hp-support-loan {
+  .hero {
+    text-align: center;
+    padding: 45px 0;
+
+    .title--1 {
+      font-size: 60px;
+      font-weight: bold;
+      text-transform: uppercase;
+      margin-bottom: 15px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .loan-product {
+    .loan-product__head {
+      .title--2 {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 35px;
+      }
+    }
+
+    .loan-product-card__body {
+      .title {
+        color: #000;
+      }
+
+      .loan-product-card__fixed {
+        color: #ed0000;
+        font-weight: 500;
+        font-size: 20px;
+      }
+
+      p {
+        color: #000;
+      }
+    }
+  }
+}
+
+//chi tiết trả góp
+.hp-support-loan-detail {
+  .card-calc {
+    background-color: #F6F6F6;
+    border-top: 2px solid #000;
+    padding: 3rem;
+    margin-bottom: 5rem;
+
+    @include mobile {
+      margin-bottom: 2rem;
+    }
+  }
+
+  .title-bold {
+    font-weight: 500;
+    margin-bottom: 20px;
+  }
+
+  .title-bolder {
+    font-weight: 700;
+  }
+
+  .hp-compare-details {
+    margin-bottom: 30px;
+  }
+}
