@@ -3351,3 +3351,65 @@ main {
     margin-bottom: 30px;
   }
 }
+
+.hp-contact-cta {
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  z-index: 99;
+
+  &.is-show {
+    .cta-contact__body {
+      height: 200px;
+      transition: all 0.2s ease-in;
+    }
+
+    .cta-contact__btn {
+      &::before {
+        background-image: url(../images/close.svg);
+        transition: all 0.2s ease-in;
+      }
+    }
+  }
+
+  .cta-contact__body {
+    position: absolute;
+    bottom: 5rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    overflow: hidden;
+    height: 0;
+    transition: all 0.2s ease-in;
+    text-align: right;
+
+    a {
+      display: inline-block;
+      margin-top: 10px;
+    }
+  }
+
+  .cta-contact__btn {
+    position: relative;
+    width: 4.5rem;
+    height: 4.5rem;
+    background-color: #ed0000;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 2;
+
+    &::before {
+      content: '';
+      background-image: url(../images/cta-contact.svg);
+      transition: all 0.2s ease-in;
+      width: 4rem;
+      height: 4rem;
+      background-position: center;
+      background-repeat: no-repeat;
+    }
+  }
+}
