@@ -1604,7 +1604,7 @@ main {
         position: absolute;
         top: 0px;
         left: 0;
-        max-width: 90%;
+        max-width: 125%;
       }
 
       .hp-ps-box {
@@ -1841,7 +1841,7 @@ main {
 }
 
 // Dịch vụ
-.hp-service-page {
+.hp-service-page,.hp-product-feature {
   .hp-service-header {
     padding: 276px 0 130px;
     font-size: 21px;
@@ -1967,6 +1967,7 @@ main {
 
 //Khám phá
 .hp-product-feature {
+  padding-bottom: 30px;
   .breadcrumb__list {
     list-style: none;
     display: flex;
@@ -2595,7 +2596,7 @@ main {
 
 .discovery {
   padding: 4rem 0;
-  margin-bottom: 4rem;
+  // margin-bottom: 4rem;
   position: relative;
 }
 
