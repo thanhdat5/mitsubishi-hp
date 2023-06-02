@@ -495,8 +495,8 @@ get_header();
         </div>
     </div>
 </div>
-<div class="hp-contact-cta">
-    <div class="cta-contact__body">
+<div class="hp-contact-cta-wrap">
+    <!-- <div class="cta-contact__body">
         <div class="cta-contact__content">
             <a href="tel:18001514" id="footer_contact_phone" data-tracking-event="footer_contact_clicked"
                 data-tracking-prop="phone">
@@ -515,7 +515,11 @@ get_header();
     </div>
     <div class="cta-contact__btn">
 
-    </div>
+    </div> -->
+    <?php
+	get_template_part('template/components/hp-contact', 'cta');
+	?>
 </div>
+
 <?php
 get_footer();
