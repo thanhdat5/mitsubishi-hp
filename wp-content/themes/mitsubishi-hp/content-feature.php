@@ -4,7 +4,7 @@
  * The template for displaying content feature in the index.php template.
  */
 ?>
-<div class="hp-product-feature">
+<div class="hp-product-feature-detail">
     <div class="breadcrumb breadcrumb--top">
         <div class="container-fluid">
             <ol class="breadcrumb__list">
@@ -272,6 +272,28 @@
         </div>
     </div>
     <?php }?>
+    <?php if (get_field('nd_13_tieu_de')) {?>
+    <div class="hp-service-item hp-card-animation image-right">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6 order-md-2 order-0">
+                <div class="hp-si-image">
+                    <div class="hp-si-image-inner">
+                        <img class="w-100" src="<?php echo get_field('nd_13_anh_thumbnail') ;?>" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="hp-si-content">
+                    <h2 class="hp-si-title"><?php echo get_field('nd_13_tieu_de') ;?></h2>
+                    <div class="hp-si-body">
+                        <p><?php echo get_field('nd_13_mo_ta') ;?></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
     <?php if (get_field('nd_14_tieu_de')) {?>
     <div class="hp-service-item hp-card-animation ">
         <div class="row g-0 align-items-center">
@@ -297,7 +319,7 @@
     <?php if (get_field('nd_15_tieu_de')) {?>
     <div class="hp-service-item hp-card-animation image-right">
         <div class="row g-0 align-items-center">
-            <div class="col-md-6 order-md-2 order-1">
+            <div class="col-md-6 order-md-2 order-0">
                 <div class="hp-si-image">
                     <div class="hp-si-image-inner">
                         <img class="w-100" src="<?php echo get_field('nd_15_anh_thumbnail') ;?>" alt="">
@@ -341,7 +363,7 @@
     <?php if (get_field('nd_17_tieu_de')) {?>
     <div class="hp-service-item hp-card-animation image-right">
         <div class="row g-0 align-items-center">
-            <div class="col-md-6 order-md-2 order-1">
+            <div class="col-md-6 order-md-2 order-0">
                 <div class="hp-si-image">
                     <div class="hp-si-image-inner">
                         <img class="w-100" src="<?php echo get_field('nd_17_anh_thumbnail') ;?>" alt="">
@@ -382,4 +404,54 @@
         </div>
     </div>
     <?php } ?>
+    <?php if (get_field('nd_19_tieu_de')) {?>
+    <div class="hp-service-item hp-card-animation image-right">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6 order-md-2 order-0">
+                <div class="hp-si-image">
+                    <div class="hp-si-image-inner">
+                        <img class="w-100" src="<?php echo get_field('nd_19_anh_thumbnail') ;?>" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="hp-si-content">
+                    <h2 class="hp-si-title"><?php echo get_field('nd_19_tieu_de') ;?></h2>
+                    <div class="hp-si-body">
+                        <p><?php echo get_field('nd_19_mo_ta') ;?></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>
+    <?php if (get_field('nd_20_tieu_de')) {?>
+    <div class="hp-service-item hp-card-animation ">
+        <div class="row g-0 align-items-center">
+            <div class="col-md-6 ">
+                <div class="hp-si-image">
+                    <div class="hp-si-image-inner">
+                        <img class="w-100" src="<?php echo get_field('nd_20_anh_thumbnail') ;?>" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 ">
+                <div class="hp-si-content">
+                    <h2 class="hp-si-title"><?php echo get_field('nd_20_tieu_de') ;?></h2>
+                    <div class="hp-si-body">
+                        <p><?php echo get_field('nd_20_mo_ta') ;?></p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <?php } ?>    
+
+	<div class="hp-sect-try">
+		<div class="container">
+			<?php echo get_field('form_shortcode'); ?>
+		</div>
+	</div>
 </div>

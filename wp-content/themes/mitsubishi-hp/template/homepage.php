@@ -123,7 +123,7 @@ get_header();
         }
         ?>
     </div>
-    <button class="hp-btn"><span>Tìm hiểu thêm</span></button>
+    <?php echo get_field('tat_ca_san_pham'); ?>
 </section>
 <div class="hp-product-banner"
     style="background-image: url(https://www.mitsubishi-motors.com.vn/storage/content/w/wp-content/uploads/2022/05/home-trai-nghiem-xe-section.webp?v=2022-08-11-1420);">

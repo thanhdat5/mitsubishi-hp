@@ -10,7 +10,7 @@ if (have_posts()) :
 		the_post();
 		if ('san-pham' === get_post_type()) {
 			get_template_part('content', 'product');
-		} else if ('attrage' === get_post_type() || 'triton' === get_post_type()) {
+		} else if ('attrage' === get_post_type() || 'triton' === get_post_type() || 'xpander' === get_post_type() || 'xpander-cross' === get_post_type() || 'outlander' === get_post_type() || 'pajero' === get_post_type() ) {
 			get_template_part('content', 'feature');
 		}else{
 			get_template_part('content', 'single');
