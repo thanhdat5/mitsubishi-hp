@@ -27,6 +27,8 @@ import * as bootstrap from 'bootstrap';
 		var scrollTop = jQuery(window).scrollTop();
 		jQuery('.hp-card-animation').each(function () {
 			var topDistance = jQuery(this).offset().top;
+			console.log(topDistance - jQuery(this).height())
+			console.log(scrollTop)	
 			if ((topDistance - jQuery(this).height()) < scrollTop) {
 				jQuery(this).addClass('animated');
 			}

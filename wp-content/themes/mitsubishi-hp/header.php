@@ -2,12 +2,11 @@
 <html <?php language_attributes(); ?>>
 
 <head>
-    <meta charset="<?php bloginfo('charset'); ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- <link rel="stylesheet" href="wp-content/themes/mitsubishi-hp/assets/slick/slick.css" />
-	<link rel="stylesheet" href="wp-content/themes/mitsubishi-hp/assets/slick/slick-theme.css" /> -->
-
-    <?php wp_head(); ?>
+	<meta charset="<?php bloginfo('charset'); ?>">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="<?php echo get_theme_file_uri('assets/slick/slick.css') ;?>" />
+	<link rel="stylesheet" href="<?php echo get_theme_file_uri('assets/slick/slick-theme.css') ;?>" />
+  <?php wp_head(); ?>
 </head>
 
 <body <?php body_class(); ?>>

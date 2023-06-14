@@ -1613,7 +1613,7 @@ main {
         position: absolute;
         top: 0px;
         left: 0;
-        max-width: 90%;
+        max-width: 125%;
       }
 
       .hp-ps-box {
@@ -1850,7 +1850,8 @@ main {
 }
 
 // Dịch vụ
-.hp-service-page {
+.hp-service-page,
+.hp-product-feature-detail {
   .hp-service-header {
     padding: 276px 0 130px;
     font-size: 21px;
@@ -1975,7 +1976,9 @@ main {
 }
 
 //Khám phá
-.hp-product-feature {
+.hp-product-feature-detail {
+  padding-bottom: 30px;
+
   .breadcrumb__list {
     list-style: none;
     display: flex;
@@ -1998,6 +2001,88 @@ main {
         text-decoration: none;
       }
     }
+
+    .hp-service-item {
+      &.image-right {
+        .hp-si-image {
+          &::after {
+            left: -100%;
+            transform: skewX(-30deg);
+          }
+        }
+      }
+
+      &.animated {
+        .hp-si-image {
+          &::after {
+            transform: skewX(0deg);
+          }
+        }
+      }
+
+      .hp-si-image {
+        height: 100%;
+        position: relative;
+
+        &::after {
+          position: absolute;
+          left: 100%;
+          right: auto;
+          transform: skewX(30deg);
+          transform-origin: bottom;
+          height: 100%;
+          width: 100%;
+          transition: transform 0.5s cubic-bezier(0.17, 0.86, 0.45, 0.9);
+          top: 0;
+          background-color: #fff;
+          content: "";
+        }
+
+        .hp-si-image-inner {
+          overflow: hidden;
+          position: relative;
+          width: 100%;
+          height: 100%;
+
+          img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+          }
+        }
+      }
+
+      .hp-si-content {
+        padding: 40px 150px;
+        position: relative;
+
+        .hp-si-subtitle {
+          font-size: 12px;
+          line-height: 16px;
+          font-weight: 400;
+          letter-spacing: 2px;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+
+        .hp-si-title {
+          font-size: 42px;
+          line-height: 47px;
+          font-weight: 700;
+          text-transform: uppercase;
+          margin-bottom: 20px;
+        }
+
+        .hp-si-body {
+          p {
+            margin-bottom: 20px;
+          }
+        }
+
+        
+      }
+      
+    }
   }
 
   .hero__body {
@@ -2010,7 +2095,11 @@ main {
       margin-bottom: 3rem;
       font-size: 4.3rem;
       font-weight: 700;
+      @media(max-width:480px) {
+        font-size: 2.3rem;
+      }
     }
+    
   }
 
   .img-100 {
@@ -2476,9 +2565,10 @@ main {
 }
 
 .mit-production {
+  margin-bottom: 30px;
+
   .hp-product-versions-items {
     padding: 40px 0;
-    margin-bottom: 40px;
 
     a {
       color: #000;
@@ -2604,7 +2694,7 @@ main {
 
 .discovery {
   padding: 4rem 0;
-  margin-bottom: 4rem;
+  // margin-bottom: 4rem;
   position: relative;
 }
 
@@ -2653,6 +2743,14 @@ main {
 .hp-si-content {
   padding: 40px 150px;
   position: relative;
+  @media(max-width:991px) {
+    padding: 12px 23px;
+    }
+
+  @media(max-width:480px) {
+      padding: 12px 23px;
+  
+  }
 }
 
 .hp-si-title {

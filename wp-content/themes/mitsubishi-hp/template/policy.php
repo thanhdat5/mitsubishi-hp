@@ -15,7 +15,7 @@ get_header();
         </div>
     </div>
     <div class="container">
-        <div class="hp-policy-content"><?php echo get_the_content(); ?></div>
+        <?php the_content(); ?>
     </div>
 </div>
 <?php
