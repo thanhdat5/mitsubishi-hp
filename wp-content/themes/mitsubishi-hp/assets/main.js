@@ -628,6 +628,12 @@ import * as bootstrap from 'bootstrap';
 		});
 	}
 
+	jQuery('.cta-contact__btn').on('click', function () {
+
+		console.log(jQuery(this).closest('.hp-contact-cta'))
+		jQuery(this).closest('.hp-contact-cta').toggleClass('is-show')
+
+	});
 
 
 })();
